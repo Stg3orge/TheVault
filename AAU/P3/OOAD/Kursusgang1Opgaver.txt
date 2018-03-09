@@ -1,0 +1,30 @@
+Kursusgang 1 Opgaver System Developement.
+
+Opgave 2.
+Et eksisterende system: Moodle.
+Problemområde: Skoleplatform til elever og lærere og adminstrative.
+Application domain: Moodle og dem der adminstrerer moodle.
+
+Modelområde:
+	* Brugergruppe
+		. Studenter
+		. Undervisere
+		. Drift
+		. Sektretærer
+		. Studieledere
+
+Funktionalitet:
+	* Navigering
+		. Kursus
+		. Skema
+		. Oprette sider
+
+Interface:
+	* Login
+	* Kurser
+
+
+Opgave 3.
+System: Aalborg Lufthavn
+Problemområde: Luft Trafik, Nodjylland og Internationalt.
+Application domain: Ansatte, Systemet, Tårnene.

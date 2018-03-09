@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>50</x>
+      <y>40</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Klassen: Kunde
+bg=yellow
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>290</x>
+      <y>40</y>
+      <w>240</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Instans af klassen: Customer
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>100</y>
+      <w>140</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Kunde
+--
+navn
+adresse
+mail
+telefon
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>100</y>
+      <w>240</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Peter : Kunde
+--
+Peter Hansen : navn
+Skovvej 2, 9000 Aalborg : adresse
+ph@gmail.com : mail
+72691210 : telefon
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

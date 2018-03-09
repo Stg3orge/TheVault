@@ -1,0 +1,23 @@
+Transaction ID: 100, User: eh1, Balance: 28 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 101, User: eh1, Balance: 16 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 102, User: eh1, Balance: 4 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 103, User: eh1, Balance: -8 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 104, User: eh1, Balance: -20 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 105, User: eh1, Balance: -32 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 106, User: eh1, Balance: -44 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 107, User: eh1, Balance: -56 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 108, User: eh1, Balance: -68 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 109, User: eh1, Balance: -80 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 110, User: eh1, Balance: -92 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 111, User: eh1, Balance: -104 Date: 31-07-2016 07:44:42, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 100, User: stgeorge, Balance: 900 Date: 31-07-2016 07:49:42 , Amount inserted to user account: 500.
+Transaction ID: 100, User: stgeorge, Balance: 388 Date: 24-08-2016 22:23:26, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 101, User: stgeorge, Balance: 376 Date: 24-08-2016 22:23:26, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 102, User: stgeorge, Balance: 364 Date: 24-08-2016 22:23:37, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 103, User: stgeorge, Balance: 352 Date: 24-08-2016 22:23:37, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 104, User: stgeorge, Balance: 340 Date: 24-08-2016 22:23:37, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 105, User: stgeorge, Balance: 328 Date: 24-08-2016 22:23:37, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 100, User: stgeorge, Balance: 388 Date: 24-08-2016 22:26:53, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 101, User: stgeorge, Balance: 376 Date: 24-08-2016 22:26:53, User purchased ID: 11, Product: "½L vand & kildevand excl. pant", Price: 12. DKK.
+Transaction ID: 100, User: stgeorge, Balance: 383.5 Date: 17/10/2017 11:40:19, User purchased ID: 1776, Product: "Dåseøl (Guinness & Kilkenny)", Price: 16.5. DKK.
+Transaction ID: 100, User: stgeorge, Balance: 800 Date: 17/10/2017 11:49:10 , Amount inserted to user account: 400.

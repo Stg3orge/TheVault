@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Display
+comment1.params=height\ width\ isFlatScreen\ haveLoudSpeakers\ description
+comment1.target=Display(double,\ double,\ boolean,\ boolean,\ java.lang.String)
+comment2.params=
+comment2.target=void\ Print()
+numComments=3

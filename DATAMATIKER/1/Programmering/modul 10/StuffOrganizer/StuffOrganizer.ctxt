@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=StuffOrganizer
+comment1.params=
+comment1.target=StuffOrganizer()
+comment10.params=count
+comment10.target=java.util.ArrayList\ findByCountUnder(int)
+comment2.params=s
+comment2.target=void\ addStuff(Stuff)
+comment3.params=
+comment3.target=java.util.ArrayList\ getAllStuff()
+comment4.params=s
+comment4.target=boolean\ removeStuff(Stuff)
+comment5.params=name
+comment5.target=Stuff\ removeStuffByName(java.lang.String)
+comment6.params=name
+comment6.target=Stuff\ findByName(java.lang.String)
+comment7.params=value
+comment7.target=java.util.ArrayList\ findByValueOver(double)
+comment8.params=value
+comment8.target=java.util.ArrayList\ findByValueBelow(double)
+comment9.params=count
+comment9.target=java.util.ArrayList\ findByCountOver(int)
+numComments=11

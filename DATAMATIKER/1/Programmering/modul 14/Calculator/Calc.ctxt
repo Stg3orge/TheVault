@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Calc
+comment1.params=
+comment1.target=void\ calc()
+comment2.params=text
+comment2.target=double\ promptDouble(java.lang.String)
+numComments=3

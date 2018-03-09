@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Member
+comment1.params=name\ phone\ email
+comment1.target=Member(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment10.params=
+comment10.target=void\ describe()
+comment10.text=\r\n\ Prints\ the\ member's\ info\ to\ the\ console,\ including\ the\ info\ for\ all\ the\ member's\ dogs\r\n
+comment2.params=name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=phone
+comment4.target=void\ setPhone(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getPhone()
+comment6.params=email
+comment6.target=void\ setEmail(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getEmail()
+comment8.params=year
+comment8.target=int\ unpaidCount(int)
+comment8.text=\r\n\ Returns\ the\ number\ of\ dogs\ for\ which\ the\ given\ Member\ has\ not\ paid\ membership\ fee\r\n\ @param\ year\ is\ the\ year\ for\ which\ we\ want\ to\ check\ for\r\n\ @return\ a\ number\ representing\ the\ number\ of\ dogs\ fee\ is\ due\ for\r\n
+comment9.params=year
+comment9.target=boolean\ isFeeDue(int)
+comment9.text=\r\n\ Any\ unpaid\ fees?\r\n\ @param\ year\ the\ year\ we\ check\ for\r\n\ @return\ <code>true</code>\ if\ the\ member\ owes\ money,\ <code>false</code>\ otherwise.\r\n
+numComments=11

@@ -1,0 +1,34 @@
+
+Begin MapCreateLevel1()
+
+	Create platform ground;
+	Create enemy Goomba;
+	Create enemy Turtle;
+	Create figure QuestionBox[];
+	Create goal Flag;
+	Create figure 1upBox;
+	Create figure Mario;
+
+	Mario.Position = 0;
+	Turtle.Position = 10;
+	QuestionBox[].Position = (12,4);
+
+End MapCreateLevel1()
+
+Begin MapCreateLevel2()
+
+	Create platform ground;
+	Create enemy Goomba;
+	Create enemy Turtle;
+	Create figure QuestionBox[];
+	Create goal Flag;
+	Create figure 1upBox;
+	Create figure Mario;
+
+End MapCreateLevel2()
+
+Begin GameOver()
+
+	Run = false;
+
+End GameOver()

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>30</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Implementation
+bg=green
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>30</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Requirements
+
+bg=green
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>30</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Use Case Analysis
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>30</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Preliminary Study
+bg=green
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>30</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Design
+bg=green
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>630</x>
+      <y>110</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Sequence Diagram
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>20</x>
+      <y>210</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Workflow
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>630</x>
+      <y>210</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Communication
+Diagram
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>20</x>
+      <y>330</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Employee-task-goal
+table
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>210</x>
+      <y>340</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Use case fully dressed
+description
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>830</x>
+      <y>110</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Code
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>210</x>
+      <y>120</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Use Case Diagram
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>210</x>
+      <y>450</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Domain Model
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>830</x>
+      <y>230</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Test
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>20</x>
+      <y>110</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Mock-up
+bg=yellow
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>20</x>
+      <y>440</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+System Vision
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>430</x>
+      <y>230</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Operation Contract
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>430</x>
+      <y>120</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+System Sequence
+Diagram
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>630</x>
+      <y>320</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Design Class Diagram
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>210</x>
+      <y>230</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>
+Use case brief
+description
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

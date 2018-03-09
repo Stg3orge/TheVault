@@ -1,0 +1,40 @@
+05/02/2016 Opgaver Kursusgang 1
+
+2.1
+A) 0x25B9D2 to binary
+B) 1010111001001001 to hexi
+C) 0xA8B3D to binary
+D) 100100010110110010110 to hexi
+
+A) 001001011011100111010010
+B) 0xAE49
+C) 10101000101100111101
+D) 0xC8B652
+
+
+**Opgaven løses med little endian**
+
+158 decimal
+128	64	32	16	8	4	2	1
+1	0	0	1	1	1	1	0
+
+76 decimal
+128	64	32	16	8	4	2	1
+0	1	0	0	1	1	0	0
+
+145 decimal
+128	64	32	16	8	4	2	1
+1	0	0	1	0	0	0	1
+
+1	0	1	0	1	1	1	0
+128	64	32
+
+
+2.3
+A) Decimal	Binary		Hexadecimal
+   0		0000 0000	0x00
+   158		1001 1110	0x9E
+   76		0100 1100	0x4C
+   145		1001 0001	0x91
+   174		1010 1110	0xAE
+   

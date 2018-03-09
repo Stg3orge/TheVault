@@ -1,0 +1,75 @@
+Rules:
+Start Platform
+Nå hen til flag
+Create et level
+Kan dø
+
+Kriterier:
+Simplicity
+
+
+Begin main()
+
+	Load Figures; 					// prefabs, som et library i guess
+	Load Characters;
+
+	Call Start();
+
+End main()
+
+Begin Start()
+	
+	Create bool Run;
+
+	Run = true;
+
+	while Run is true
+
+		Call MapCreateLevel1();
+		Call MarioMove();
+		Call CompleteLevel();
+
+	end while
+
+End Start()
+
+Begin MarioMove()
+	
+	Mario.Control = true;
+
+	Mario.Move.Directionright = 1;
+	Mario.Move.Directionrightkey = rightarrow;
+	Mario.Move.Directionleft = 1;
+	Mario.Move.Jump = 4;
+
+End Move()
+
+Begin CompleteLevel();
+	
+	while flag is !true
+		if Mario.Position is flag.Position
+			flag = true;
+		end if
+	end while
+
+End CompleteLevel();
+
+Begin Death()
+
+	if Goomba.Position is Mario.Position
+
+		Mario.Life - 1;
+
+		if Mario.Life is 0
+
+			Mario.Death = true;
+
+			if Mario.Death is true
+				Call GameOver();
+			end if
+
+		end if
+
+	end if
+
+End Death()

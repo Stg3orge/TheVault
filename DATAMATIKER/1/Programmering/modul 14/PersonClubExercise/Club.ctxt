@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Club
+comment1.params=
+comment1.target=Club()
+comment2.params=p
+comment2.target=void\ addMember(Person)
+comment3.params=
+comment3.target=java.util.ArrayList\ getMembers()
+numComments=4

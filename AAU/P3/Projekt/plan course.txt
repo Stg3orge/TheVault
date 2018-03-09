@@ -1,0 +1,5 @@
+plan course
+
+* Have alenestående kursusnavne i et stakit der har en column række på 3 som bliver udfyldt
+* Table skal være hover table hvori hvert kursus er en knap til at gå til en informationsside der har description, dokumenter, link til afleveringssiden som benjamin laver
+* 

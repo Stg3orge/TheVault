@@ -1,0 +1,170 @@
+USABILITY
+
+1. What is usability?
+ 1.1 Methods have changed accomodating new technology
+ 1.2 How can we evaluate usability faster and still get a good result?
+
+2. Usability describes a quality in an interaction design.
+ 2.1 A system needs to be reliable, stable, interactive and have good usability.
+ 2.2 Three Definitions:
+	* Effectiveness: the accuracy and completeness with which specified users can achieve specified goals in particular environments.
+	* Efficiency: the resources expended in relation to the accuracy and completeness of goals achieved.
+	* Satisfaction: the comfrt and acceptability of the work system to its users and other people affected by its use.
+
+3. Its different from user experience.
+ 3.1 You have usability goals in the middle of a spectrum. This is the things we usually talk about concerning usability.
+ 	Easy to remember, easy to learn, efficient to use, effective to use, safe to use, have good utility.
+ 3.2 And an outer circle that CAN be useful when describing usability for a software system.
+ 	Entertaining, helpfu, motivating, aesthetically pleasing, supportive of creativity, rewarding, emotionally fulfilling etc.
+
+4. Is essential in everyday things and expert things. So both not-so-everyday and everyday items are all interactive.
+ 4.1 Think of the context of what system we're desigining. Has implications.
+ 4.2 Can't always apply the same design choices for different software for very different purposes. Not always the same design process.
+ 4.3 Complexity has an influence on design choices.
+
+5. Usability evaluation.
+ 5.1 What is the purpose?
+ 	* Identify
+ 		What are the problems?
+ 		Never the end product, just the first step to refine it.
+ 	* Starting point for refinements of design.
+ 5.2 Outcome
+ 	* Ranked list of problems, sorted in some way. Fx. What is most important
+ 	* What works well and what sucks?
+ 5.3 Different approaches.
+ 	* Expert evaluators or evaluating with the users.
+ 	* Lab or field study?
+
+6. Types of evaluation.
+ 6.1 Exploratory analysis.
+ 	* User and usage, Specification of requirements, preliminary design
+ 6.2 Assessment test.
+ 	* Detailed design
+ 6.3 Validation test.
+ 	* Product build, do the other things first before getting here!
+ 	* Validate your design.
+ 6.4 All of the above are comparable tests.
+ 6.5 Release product.
+
+7. How to evaluate - Heuristic
+ 7.1 Heuristic inspection
+ 	* Experts form a checklist and inspects design based on it
+ 	* Scenarios/personas + relevant tasks can structure process
+ 	* Produces a ranked list of usability problems
+ 7.2 Pros
+ 	* Can save time on usability testing, no need for user interaction
+ 	* if you get 3-5 people to inspect using this method you get around 70% of problems
+ 7.3 Cons
+ 	* Needs to have a dev team that can properly do these inspections, based on actual skill
+ 	* Can hit "false" usablity problems
+ 	* Can cause cosmetic problems
+
+8. How to evaluate - User-based evaluation
+ 8.1 Involve users.
+ 	* User interacts with system and you observe.
+ 	* Task solving and "thinkin-aloud"
+ 	* Test monitor observes and take notes
+ 	* Make a ranked list of problems
+ 8.2 Pros
+ 	* Gets a very precise idea of users problems
+ 8.3 Cons
+ 	* Test situation can feel unnatural
+ 	* We want them to converse with us not us with them
+ 	* Time consuming and difficult
+
+9. User evaluation in detail
+ 9.1 A Problem is experienced
+ 	* The user is delayed or prevented in completing a task
+ 	* The user feels frustrated
+ 	* The user makes a mistake
+ 	* The user misses important info
+
+10. Expert-based evaluations
+ 10.1 A potential problem identified by expert.
+
+LOOK IMAGE TITLED: "Description-of-Evaluation"
+
+11. Procedure
+ - Create scenarios and tasks
+ - Test scenarios and tasks (pilot test)
+ - Define and divide rles (test monitor, observe etc.)
+ - Plan data collection (what and how to collect)
+ - Recruit test users
+ - Carry out the evaluation
+ - finalize the log files (transcripts)
+ - Analyze data
+ - Give feedback to designers/devs
+
+12. Procedure "On the day"
+ 12.1 Introduction
+ 	* Instructions about the test
+ 	* Consent form
+ 	* Questionnaire (demographics)
+ 12.2 Test subject solves tasks using the design
+ 	* Test subject "thinks aloud"
+ 	* Test monitor facilitates
+ 	* Test is recorded on video
+ 	* Observer takes notes and creates log file
+ 		- A description of what the user is doing
+ 12.3 Post-evaluation debriefing/interview
+
+13. Evaluating in the lab
+ 13.1 Pros
+ 	* User based is usually done in the "lab"
+ 	* A "lab" is not an actual lab
+ 	* Structured, can easily set up hidden camera in HD as opposed to the field evaluation in THEIR office
+ 	* Can easily be replicated and controlled
+ 13.2 Cons
+ 	* Feels artificial
+ 	* Can cause varying answers if the user is not comfortable
+ 13.3 Cons outweigh Pros early in project
+
+14. Test Subjects
+ 14.1 Representative
+ 	* Demographics
+ 	* Experience in the problem domain
+ 14.2 Number of subjects
+ 	* Generalizability, not everyone is a solid representation of the entire user group
+ 	* Quantitive conclusions, kvantitiv
+ 	* Statistics, MORE the better in finding usability problems
+ 14.3 Fellow students
+ 	* Problematic
+ 	* Motivation lacking
+ 	* Demographic and experience (not much maybe or maybe a lot)
+
+15. Conducting a lab evaluation
+ 15.1 Give and introduction on what you are going to ask them and how the whole experiment will proceed.
+ 15.2 Tasks
+ 15.3 Good tasks
+ 	* Represent a real use of the system
+ 	* Describe the end result
+ 	* Motivation is key
+ 	* Don't make the user spend too much time
+ 	* Include relevant data like names and profession
+ 	* Group tasks together, if you provide to much help the task becomes meaningless
+ 15.4 Typical problems
+ 	* Vague details
+ 	* Provide too much lep
+ 	* Dont use technical terms, use regular pleb language
+ 	* Dont force them into a structured interview sort of guideline.
+
+16. VIDEO - My observation on what usability problems occur
+- Confused about navigation slightly
+- Could not find a specific thing she needed to be able to write something
+	. She found it after a short while
+- Subject accidentally closed something and got a warning message and go confused as a result.
+- Nu er siden grå thats how i can see it.
+- Wasn't easy to learn and remember
+- Efficiency problem a lot of things not grouped together in a coherent interface
+
+17. VIDEO 2
+ 17.1 Critical, serious, cosmetic problems
+ 17.2 In case of different experience of severity you will typically choose the most severe
+ 	* A critical problem means unable to continue, feels the system is against them, critical difference between believed and actual state of the system
+ 17.3 Catastrophes
+ 	* System is behaving so differently and inherently causing more problems than solving them
+ 	* More than one user encountered same problem
+- How do I do dis?!?!?!??!
+- Shortened word4
+- The program doesnt remind her of any other program shes used probably
+- She got completely lost and that can elude to a critical problem

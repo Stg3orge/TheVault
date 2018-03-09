@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>504</x>
+      <y>9</y>
+      <w>108</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+name
+email
+phone
+birthDate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>306</x>
+      <y>9</y>
+      <w>108</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Group
+--
+name
+description</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>54</y>
+      <w>117</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=*</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>81</x>
+      <y>531</y>
+      <w>54</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>User</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>180</x>
+      <y>486</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>CRUD Group</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>180</x>
+      <y>531</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>CRUD Person</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>180</x>
+      <y>576</y>
+      <w>108</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Change Person's
+Group</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>117</x>
+      <y>495</y>
+      <w>81</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>70.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>117</x>
+      <y>531</y>
+      <w>81</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>117</x>
+      <y>540</y>
+      <w>81</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>70.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>333</x>
+      <y>351</y>
+      <w>54</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>User</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>396</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:System_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>531</x>
+      <y>414</y>
+      <w>27</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>423</y>
+      <w>27</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>432</y>
+      <w>207</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+showPersons()</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>459</y>
+      <w>207</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+persons</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>486</y>
+      <w>207</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+pickPerson(pid)</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>540</y>
+      <w>207</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+showGroups()</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>513</y>
+      <w>207</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+person details</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>567</y>
+      <w>207</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+groups</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>594</y>
+      <w>207</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+pickNewGroup(gid)</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>621</y>
+      <w>207</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+success</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>576</x>
+      <y>513</y>
+      <w>324</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>pickNewGroup(gid):boolean
+--
+pre: 
+    a person p with id pid and a group g with id gid exist,
+    p belongs to group g'
+post:
+    g now contains p, 
+    previous associations to p from g' are removed</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>198</x>
+      <y>810</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:PersonList_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>369</x>
+      <y>900</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:PersonGroupCtr_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>828</y>
+      <w>198</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1.: showPersons(): List&lt;Person&gt;
+</panel_attributes>
+    <additional_attributes>180.0;80.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>126</x>
+      <y>900</y>
+      <w>387</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1.1: findAll(): List&lt;Person&gt;
+4.1: updatePerson(id:int, name:String, email:String, phone:String, 
+birthDate:LocalDate, int:groupId): void</panel_attributes>
+    <additional_attributes>150.0;120.0;270.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>153</x>
+      <y>999</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:PersonCtr_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>198</x>
+      <y>1017</y>
+      <w>414</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1.2: findAll(): List&lt;Person&gt;
+4.2: 4.1: updatePerson(id:int, name:String, email:String, phone:String, 
+birthDate:LocalDate, int:groupId): void</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>153</x>
+      <y>1098</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:PersonDB_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>261</x>
+      <y>1197</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>_:Person_
+{NEW}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>1116</y>
+      <w>261</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1.3 *: &lt;&lt;create&gt;&gt; Person(id, name, ...)
+1.5 : setGroup(tg)</panel_attributes>
+    <additional_attributes>90.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>900</y>
+      <w>162</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+3.1: findAll(): List&lt;Group&gt;
+</panel_attributes>
+    <additional_attributes>160.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>981</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:GroupCtr_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>657</x>
+      <y>999</y>
+      <w>171</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+3.2: findAll(): List&lt;Group&gt;
+</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>1080</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:GroupDB_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>1197</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>_:Group_
+{NEW}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>657</x>
+      <y>1098</y>
+      <w>216</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+3.3 *: &lt;&lt;create&gt;&gt; Group(id, name, ...)</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>765</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>GROUPS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>765</x>
+      <y>27</y>
+      <w>63</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_    id    _</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>828</x>
+      <y>27</y>
+      <w>45</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>PERSONS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>27</y>
+      <w>63</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_    id    _</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1035</x>
+      <y>27</y>
+      <w>45</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>873</x>
+      <y>27</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>description</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>27</y>
+      <w>45</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1125</x>
+      <y>27</y>
+      <w>45</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>phone</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>27</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>birth_date</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1242</x>
+      <y>27</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>group_id</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1242</x>
+      <y>36</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>45</y>
+      <w>495</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;530.0;40.0;530.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1404</x>
+      <y>1179</y>
+      <w>279</w>
+      <h>306</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+- id: int
+- name: String
+- email: String
+- phone: String
+- birthDate: LocalDate
+--
++ &lt;&lt;constructor&gt;&gt;
+        Person(id: int, name: String, email: String,
+        phone: String, birthDate: LocalDate)
++ setId(id: int): void
++ getId(): int
++ setName(name: String): void
++ getName(): String
++ setEmail(email: String): void
++ getEmail((): String
++ setPhone(phone: String): void
++ getPhone(): String
++ setBirthDate(birthDate: LocalDate): void
++ getBirthDate(): LocalDate
++ toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1062</x>
+      <y>1188</y>
+      <w>234</w>
+      <h>207</h>
+    </coordinates>
+    <panel_attributes>Group
+--
+- int: id
+- name: String
+- description: String
+--
++ &lt;&lt;constructor&gt;&gt; Group( id: int,
+    name: String, desc: String)
++ setId(id: int): void
++ getId(): int
++ setName(name: String): void
++ getName(): String
++ setDescription(desc: String): void
++ getDescription(): String
++ toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1287</x>
+      <y>1224</y>
+      <w>135</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2= * 
+</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1467</x>
+      <y>801</y>
+      <w>225</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+PersonDBIF
+--
++ findAll(): List&lt;Person
++ findById(id: int): Person
++ update(id:int, name: String, 
+    email: String, phone: String,
+    birtDate: LocalDate, groupId: int)
+    : Person
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1062</x>
+      <y>828</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+GroupDBIF
+--
++ findAll(): List&lt;Group&gt;
++ findById(id: int): Group
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1296</x>
+      <y>846</y>
+      <w>117</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>DBConnection
+--
+...
+--
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1404</x>
+      <y>864</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1242</x>
+      <y>864</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1053</x>
+      <y>972</y>
+      <w>243</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>GroupDB
+--
+_-findAllQ: String_
+_-findByIdQ: String_
+- findAll: PreparedStatement
+- findById: PreparedStatement
+--
+- buildObject(rs: ResultSet): Group
+- buildObjects(rs: ResultSet): List&lt;Group&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1467</x>
+      <y>972</y>
+      <w>225</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>PersonDB
+--
+_-findAllQ: String_
+_-findByIdQ: String_
+_-updateQ: String_
+- findAll: PreparedStatement
+- findById: PreparedStatement
+- update: PreparedStatement
+--
+- buildObjectrs: ResultSet): Person
+- buildObjects(rs: ResultSet): List&lt;Person&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1530</x>
+      <y>1107</y>
+      <w>54</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;80.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1161</x>
+      <y>1089</y>
+      <w>36</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>20.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1134</x>
+      <y>891</y>
+      <w>27</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1566</x>
+      <y>927</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1071</x>
+      <y>558</y>
+      <w>216</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+GroupCtrIF
+--
++ findAll(): List&lt;Group&gt;
++ findById(id: int): Group
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1404</x>
+      <y>549</y>
+      <w>234</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+PersonCtrIF
+--
++ findAll(): List&lt;Person&gt;
++ findById(id: int): Person
++ updatePerson(id:int, name:String, 
+  email:String, phone:String, 
+  birthDay: LocalDate, groupId: int): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1242</x>
+      <y>360</y>
+      <w>216</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+PersonGroupCtrIF
+--
++ showPersons(): List&lt;Person&gt;
++ pickPerson(pid: int): Person
++ showGroups(): List&lt;Group&gt;
++ pickNewGroup(gid: int): boolean
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1152</x>
+      <y>720</y>
+      <w>27</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1503</x>
+      <y>738</y>
+      <w>72</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>60.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1125</x>
+      <y>198</y>
+      <w>162</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>PersonList
+--
+--
+- updatePersonList(): void
+- showPerson(): void
+- init(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1377</x>
+      <y>198</y>
+      <w>180</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>PersonView
+--
+- p: Person
+--
++ setPerson(p: Person): void
+- init(): void
+- savePerson(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1278</x>
+      <y>225</y>
+      <w>117</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1206</x>
+      <y>270</y>
+      <w>99</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1377</x>
+      <y>288</y>
+      <w>90</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>27</x>
+      <y>1116</y>
+      <w>234</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1.4 : tg = &lt;&lt;create&gt;&gt; Group(gid, null, null)</panel_attributes>
+    <additional_attributes>90.0;70.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1170</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>_:Group_
+{NEW}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>558</x>
+      <y>810</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_:PersonView_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>279</x>
+      <y>801</y>
+      <w>297</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+2: setPerson(p:Person)
+</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>441</x>
+      <y>828</y>
+      <w>207</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+2.1.: pickPerson(p:Person): void
+3.: showGroups(): List&lt;Group&gt;
+4.: pickNewGroup(gid: int): boolean</panel_attributes>
+    <additional_attributes>30.0;80.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>747</y>
+      <w>180</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1. show list of persons
+2. pick one and click "Edit..."</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>594</x>
+      <y>756</y>
+      <w>297</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+3. (show list of all groups, happens automatically)
+4. pick new group and click "Save"</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1242</x>
+      <y>486</y>
+      <w>216</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>PersonGroupCtr
+--
+- p: Person
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1152</x>
+      <y>531</y>
+      <w>144</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;30.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1404</x>
+      <y>531</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1062</x>
+      <y>675</y>
+      <w>216</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>GroupCtr
+--
+- groupDB: GroupDBIF
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1404</x>
+      <y>693</y>
+      <w>216</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>PersonCtr
+--
+- personDB: PersonDBIF
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1161</x>
+      <y>621</y>
+      <w>27</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1503</x>
+      <y>657</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1089</x>
+      <y>171</y>
+      <w>495</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>gui</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1044</x>
+      <y>333</y>
+      <w>612</w>
+      <h>423</h>
+    </coordinates>
+    <panel_attributes>ctr</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1332</x>
+      <y>450</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1044</x>
+      <y>765</y>
+      <w>666</w>
+      <h>369</h>
+    </coordinates>
+    <panel_attributes>db</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1044</x>
+      <y>1143</y>
+      <w>666</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>model</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Bicycle
+comment1.params=name
+comment1.target=Bicycle(java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ getDescription()
+comment11.params=
+comment11.target=void\ Print()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=frame
+comment3.target=void\ setFrame(Frame)
+comment4.params=
+comment4.target=Frame\ getFrame()
+comment5.params=gear
+comment5.target=void\ setGear(Gear)
+comment6.params=
+comment6.target=Gear\ getGear()
+comment7.params=brake
+comment7.target=void\ setBrake(Brake)
+comment8.params=
+comment8.target=Brake\ getBrake()
+comment9.params=
+comment9.target=double\ getPrice()
+numComments=12

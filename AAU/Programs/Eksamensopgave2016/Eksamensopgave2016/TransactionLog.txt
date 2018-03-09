@@ -1,0 +1,2 @@
+Inserted Money to Users Balance. ID of transaction: 1 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:13:59
+Inserted Money to Users Balance. ID of transaction: 1 Username: name: John last name: Cena and email: johncenaofficial@gmail.com and id: 2 Date: 13/04/2016 10:14:35

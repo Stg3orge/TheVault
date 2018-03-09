@@ -1,0 +1,39 @@
+VEJLEDERMØDE 16/09/2016
+
+Spørgsmål.
+	- Problem Domain / Problemområde
+	- Arbejdsspørgsmål i prblemstilling -> Hvordan kommer vi frm til det?
+	- snak med informant med det samme?
+	- PACT -> Design afsnit
+	- Handlingsplan
+
+Referat.
+	- Start interview vil være en god ide, hvad tænker informanten. 
+
+	- Skal snakke med informanten, starter jo altid med en analyse.
+
+	- Ved vi det  hele i forvejen eller ej, Iterativ / Waterfall
+
+	- Argumentér ud fra Komplexitet / Usikkerheds model.
+
+	- Problem domain, design af program? Vi tænker for at analysere området. Hvordan gør vi det?
+
+		* Klassediagram del af design. Snak med folk, få nogle krav. Designe ud fra krav. Relevant måske med et diagram af skærmbillder eller noget. Kan lave et klassediagram nu even.
+		* PP prototype kan være en idé til at give insigt.
+		* En del af design / analyse, vores klassediagram.
+
+	- Lave en tidsplan for Iterationer, måske den 30 September. 3 Måneder til 3 iterationer.
+
+	- Kan allerede lave den initierende problemstilling nu eller lige efter informant krav.
+
+	- Rigtig godt at få information fra en lærer. VUC Aalborg.
+
+	- PACT kan der komme nye ting til efter vi har snakket med informanten.
+
+	- Kom hurtigt igennem en iteration. Ikke brug for meget tid i det samme. Så kan man danne et overblik over det gode og det dårlige og have noget håndgribeligt.
+
+	- Handlingsplan. Tidsplan -> Informant -> Initierende problemstilling(?) / Analyse -> Possible Prototype -> Evaluér design.
+
+	- Laver man en ny prototype i 2nd iteration? Skal vi have brugeren til at aprøve systemet efter hver iteration? Kommer an på om der er tid og hvad problematik der kunne opstå ved designet og funktionalitet.
+
+	*** Næste møde. Fredag d. 23 kl. 11 ***

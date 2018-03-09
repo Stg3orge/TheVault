@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Member()
+comment1.params=cpr\ name\ address\ phone
+comment1.target=Member(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment10.params=
+comment10.target=int\ getBirthYear()
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=cpr
+comment2.target=void\ setCprNo(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getCprNo()
+comment4.params=name
+comment4.target=void\ setName(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=address
+comment6.target=void\ setAddress(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getAddress()
+comment8.params=phone
+comment8.target=void\ setPhoneNumber(java.lang.String)
+comment9.params=
+comment9.target=java.lang.String\ getPhoneNumber()
+numComments=12

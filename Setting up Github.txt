@@ -1,0 +1,58 @@
+Install conemu og git
+Giv conemu Powershell {Admin} access
+
+
+O.K.
+make sure at du har en tab af powershell åben
+navigate til en mappe du gerne vil installere PoSh-git i
+
+git clone https://github.com/dahlbyk/posh-git.git
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
+og sidst men ikke mindst
+.\install.ps1 efter at have navigeret videre til Posh-git mappen
+
+Yes to All
+
+Git clone repository, naviger derhen
+git config --global push.default simple
+
+
+SUBLIME
+1) Google Sublime Text 3 og download
+
+2) Åbn Sublime and do the following:
+
+2.1) Installer Package Control til Sublime: gør en af
+de to valgmuligheder på denne hjemmeside: https://packagecontrol.io/installation
+
+2.2) Gå op i Tools -> Build System -> Automatic
+
+2.3) Ctrl+shift+p og skriv Package Control: Install Package og tryk enter
+
+2.4) Skriv LatexTools
+
+2.5) Derefter gå i Preferences -> Package Settings -> LatexTools -> Reconfigure LatexTools
+
+2.5.1) http://i.imgur.com/lSufvx6.png
+
+2.6) Tryk på Project -> Open Project og find vores Template mappe i
+dit repository (Husk at pull til nyeste version)
+
+2.6.1) Åben den fil der hedder: sublime_ux.sublime-project
+
+2.6.2) Åben Konsollen ved Ctrl+' eller oppe i view -> show console
+
+2.6.3) Ctrl+b og så compiler den filen og producerer en pdf fil
+
+2.6.4) Åben filen og luk den igen, hvis programmet siger at du mangler
+packages så bare sig ja når den spørger om den må downloade dem
+
+2.6.5) Proceed til næste step:
+
+2.7) Preferences -> Package Settings -> LatexTools -> Settings user
+
+2.7.1) Ændrer traditional nede i build til simple
+
+2.7.2) http://i.imgur.com/IcPIGHI.png
+
+2.8) Compile ved Ctrl+b igen)

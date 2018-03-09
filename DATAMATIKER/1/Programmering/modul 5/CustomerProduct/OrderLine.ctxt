@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=OrderLine
+comment1.params=newQuantity\ newOrder\ newProduct
+comment1.target=OrderLine(int,\ Order,\ Product)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PartOrder\r\n
+comment2.params=
+comment2.target=void\ printInfo()
+numComments=3

@@ -1,0 +1,44 @@
+ALGORITHMS 1-29
+
+- Algorithms is a way to input a set of values and get an output of different sets of values.
+
+- Many types of algorithms, Sorting, Searching, Shortest Path etc.
+
+01. Tools, Analysis, Design Principles
+ - Look at standard issues and solutions
+ - Analyse correctness and complexity, does it solve what it is meant to solve
+ - Design thereafter, such as Divide and Conquer, Dynamic Programming
+EUCLID's algorithm is a great example of a simple algorithm to find greatest common divisor
+
+02. Fundamentals
+ - Pseudo-code to represent algorithms
+ - Imperative language
+ - Omits technicalities likes type definitions and brackets
+ - Natural language and mathematical expression
+ - Contain comments, like "return" and "then"
+
+ 02.1
+ 	- To analyze runtime of an algorithm we need an underlying model of computation.
+ 	- RAM model
+ 	 * Sequential computation
+ 	 * Read/Write
+ 	 * Simple arithmetic operations
+ 	 * Testing a boolean condition
+
+ 02.2 What is an Algorithm really?
+ 	- An algorithm provides a solution to a computational problem
+ 	- A set of possible inputs gives a set of an output
+ 	- A function that maps each possible input to a unique output
+
+ 	- EXAMPLE
+ 	 * POSSIBLE INPUTS: Lists of integers
+ 	 * FUNCTION then: Problem instance : L = (i1, i2, .... iN) return a list l'.
+
+03. Algorithms and Randomized Algorithm
+ - An algorithm is deterministic, meaning there is an expected outcome
+ - A randomized algorithm is not really an algorithm and not deterministic
+
+ 03.1 Terminating
+ 	- For any possible input, the algorithm terminates after a finite number of steps
+ 	- Be wary of duplicate values in a set/array
+ 	

@@ -1,0 +1,14 @@
+
+
+public class Controller {
+    private Container container;
+    
+    public Controller(){
+        
+    }
+    
+    public void createMember(String name, String phone, String mail){
+        Member m = new Member(name, phone, mail);
+        container.getInstance().addMember(m);
+    }
+}

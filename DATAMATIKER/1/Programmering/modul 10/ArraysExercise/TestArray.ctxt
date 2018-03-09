@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TestArray
+comment1.params=
+comment1.target=TestArray()
+comment2.params=
+comment2.target=void\ printArray()
+comment3.params=index
+comment3.target=boolean\ isEven(int)
+comment4.params=
+comment4.target=int\ countEven()
+comment5.params=i
+comment5.target=boolean\ linearSearch(int)
+comment6.params=number
+comment6.target=void\ addAnInt(int)
+numComments=7

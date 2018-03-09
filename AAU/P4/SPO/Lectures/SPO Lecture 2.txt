@@ -1,0 +1,53 @@
+SPO Lecture 2
+
+1. Terminology
+
+- Input (Source program)
+-> Translator (Implementation language)
+	-> Output (Target language)
+
+2. Tombstone Diagrams
+
+- "puzzle pieces" for reasoning language processors and programs
+
+- Combinations rules:
+	. P and M -> M
+	. S-> S -> M M -> T -> T
+	. Kig Slides for tegninger
+
+- Compilation is the same
+
+- Cross compilation
+	. Cross compiler is a compiler which runs on one machine (Host) but emits code for another machine (Target)
+	. Tetris C -> (C->PPC) -> Tetris PPC
+
+- Two Stage Compilation
+	. Two translators, output of first translator is input of 2nd translator
+	. Can also be used for high level languages
+
+- Compile a Compiler
+	. Compiler is jst a program that can be compiled
+		* Java -> x86 -> (C->x86) -> Java -> x86
+
+- Intepreters
+	. Language processor implemented in software as a program
+	. Terminology: Abstract (virtual) machine versus Real machine
+		* Tetris JVM -> (JVM -> x86) -> x86
+	. Useful because it makes code portable
+
+- Compilation vs Interpreters
+	. Compilers offer more advantages when
+		* Programs are deployed in a production setting
+		* Programs are "repetitive"
+		* The instructions of the programming languages are complex like C#
+	. Interpreters offer more advantages when
+		* Development faze
+		* Once run code discarded
+		* Webpages
+- Interpretive Compilers
+	. Easier to implement because
+		* You can compile to a higher level langauge
+	. Faster compilation for slower runtime performance
+
+- Portable compilers
+	. translate directly to machine code on one machine so it can be run on any machine

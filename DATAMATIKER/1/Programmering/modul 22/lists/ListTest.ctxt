@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ListTest
+comment1.params=
+comment1.target=ListTest()
+comment2.params=
+comment2.target=void\ traverseGet()
+comment3.params=
+comment3.target=void\ traverseIterator()
+comment4.params=
+comment4.target=void\ traverseForeach()
+numComments=5

@@ -1,0 +1,22 @@
+BlueJ run started: Tue Feb 06 10:18:31 CET 2018
+BlueJ version 4.1.0
+Java version 1.8.0_131
+Virtual machine: Java HotSpot(TM) Client VM 25.131-b11 (Oracle Corporation)
+Running on: Windows 10 10.0 (x86)
+Java Home: C:\Programs\BlueJ Windows\bluej\jdk\jre
+----
+Detected language "english" based on iso639-2 code "eng"
+Opening project: C:\Programs\GitHubs\Gundamnation\DATAMATIKER\2\Systemudvikling\modul 1\Jagt
+1517908716435: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+An unexpected exception occurred:
+java.io.FileNotFoundException: userhome\bluej\import-cache.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at nu.xom.Builder.build(Unknown Source)
+	at bluej.utility.ImportScanner.loadCachedImports(ImportScanner.java:474)
+	at bluej.utility.ImportScanner$1.run(ImportScanner.java:242)
+Feb 06, 2018 10:20:55 AM javafx.scene.CssStyleHelper calculateValue
+WARNING: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Programs/BlueJ%20Windows/bluej/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss

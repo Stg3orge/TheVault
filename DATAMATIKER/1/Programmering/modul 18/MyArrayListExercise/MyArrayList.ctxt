@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MyArrayList
+comment1.params=
+comment1.target=MyArrayList()
+comment2.params=
+comment2.target=int\ size()
+comment3.params=o
+comment3.target=void\ add(java.lang.Object)
+comment4.params=i
+comment4.target=java.lang.Object\ getObject(int)
+comment5.params=i
+comment5.target=java.lang.Object\ remove(int)
+comment6.params=objectArray
+comment6.target=java.lang.Object[]\ expandArray(java.lang.Object[])
+numComments=7

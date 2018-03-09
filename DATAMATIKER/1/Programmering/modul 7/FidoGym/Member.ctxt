@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=Member
+comment1.params=_name\ _email\ _phone
+comment1.target=Member(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ getPhone()
+comment11.params=
+comment11.target=boolean\ hasDog()
+comment11.text=public\ boolean\ hasDog(){\r\n\ \ \ \ if(getDog()\ \=\=\ null){\r\n\ \ \ \ return\ false;\r\n\ \ \ \ }\r\n\ \ \ \ else\r\n\ \ \ \ return\ true;\r\n}
+comment12.params=thisYear
+comment12.target=boolean\ isFeeDue(int)
+comment13.params=thisYear
+comment13.target=int\ noToBePaid(int)
+comment14.params=thisYear
+comment14.target=java.util.ArrayList\ listOfRequestedPayments(int)
+comment15.params=
+comment15.target=void\ describe()
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=_dog
+comment3.target=void\ addDog(Dog)
+comment3.text=public\ void\ setDog(Dog\ _dog){\r\n\ \ \ \ dog\ \=\ _dog;\r\n}
+comment4.params=
+comment4.target=java.util.ArrayList\ getDogs()
+comment4.text=public\ Dog\ getDog(){\r\n\ \ \ \ return\ dog;\r\n}
+comment5.params=_name
+comment5.target=void\ setName(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment7.params=_email
+comment7.target=void\ setEmail(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ getEmail()
+comment9.params=_phone
+comment9.target=void\ setPhone(java.lang.String)
+numComments=16

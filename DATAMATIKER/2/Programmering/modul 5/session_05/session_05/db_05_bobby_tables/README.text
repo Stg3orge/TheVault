@@ -1,0 +1,14 @@
+0. Change the code in both classes s.t. it can connect to your database instance (IP-address, password)
+
+1. Run the SQL script from SQL management studio
+2. Run the bt.InjectTest.main() method
+3. Notice how the SQL-injection worked and deleted the students table! (Shock, horror!)
+4. Run the SQL script from the SQL management studio (again, to fix the mess from before)
+5. Run the bt_safe.InjectTest.main() method
+6. Notice how the SQL-injection is neutralized. 
+
+Learning:
+1. Check the code, see how PreparedStatements are used to 
+  a. Optimize speed
+  b. Sanitize parameters 
+2. Check the way the result set is displayed! This is an example of ResultSet Meta Data! (for the interested)

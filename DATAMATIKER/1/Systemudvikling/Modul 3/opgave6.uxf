@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>40</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Hvidevare
+--
+navn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>40</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Eksemplar
+--
+serienr</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>70</y>
+      <w>240</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>500</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Ordre
+--
+ordrenummer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>340</y>
+      <w>50</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..1
+m2=1..*</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>270</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Ordrelinje
+--
+antal</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>110</y>
+      <w>330</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>m1=1..*
+m2=1..1</panel_attributes>
+    <additional_attributes>310.0;210.0;10.0;210.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>70</y>
+      <w>340</w>
+      <h>510</h>
+    </coordinates>
+    <panel_attributes>m1=0..*
+m2=1..*
+serialnumber given to ↓</panel_attributes>
+    <additional_attributes>10.0;480.0;180.0;480.0;180.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>740</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Kunde
+--
+kontonummer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>570</y>
+      <w>50</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>m1=1..1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>500</y>
+      <w>150</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Ekspedient
+--
+lønkonto</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>530</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m1=0..*
+m2=1..*</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>740</y>
+      <w>150</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+navn
+adresse
+id</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>570</y>
+      <w>30</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>770</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+</diagram>

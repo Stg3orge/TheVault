@@ -1,0 +1,122 @@
+Integer firstx;
+Integer secondsx;
+
+Boolean booleanx;
+
+Method Integer Addition()
+		Integer sum;
+		sum = firstx + secondx;
+		return sum;
+end method
+
+Method Integer Check()
+		booleanx = false;
+
+		Integer count;
+
+		count = 1;
+
+		while(count < 10)
+			count = count + 1;
+
+			if(count is= 10)
+				booleanx = true;
+			end if
+		end while
+
+		if(booleanx = true)
+			return booleanx;
+		end if
+
+		return false;
+end method
+
+Startup()
+		firstx = 10;
+		secondx = 20;
+
+		Integer result;
+		result = Call Addition();
+
+		Boolean complete;
+		complete = Call Check();
+
+		if(complete is= true)
+			result = 50;
+		end if
+end Startup
+
+//***********************************************//
+namespace BOOTLCSharpProgram
+{
+    class Program
+    {
+        private static int firstx;
+        private static int secondx;
+
+        private static bool booleanx;
+
+        static int Addition()
+        {
+            int sum;
+            sum = firstx + secondx;
+            return sum;
+        }
+
+        static bool Check()
+        {
+            booleanx = false;
+
+            int count;
+            count = 1;
+
+            while (count < 10)
+            {
+                count = count + 1;
+
+                if (count == 10)
+                {
+                    booleanx = true;
+                }
+            }
+            if (booleanx == true)
+            {
+                return booleanx;
+            }
+            return false;
+        }
+
+        static void Main(string[] args)
+        {
+            firstx = 10;
+            secondx = 20;
+
+            int result;
+            result = Addition();
+
+            bool complete;
+            complete = Check();
+
+            if (complete == true)
+            {
+                result = 50;
+            }
+
+        }
+    }
+}
+
+//***********************************************//
+				INTERMEDIATE CSHARP
+//***********************************************//
+
+.class private auto ansi beforefieldinit BOOTLCSharpProgram.Program
+       extends [mscorlib]System.Object
+{
+} // end of class BOOTLCSharpProgram.Program
+
+.field private static int32 firstx
+.field private static int32 secondx
+
+.field private static bool booleanx
+

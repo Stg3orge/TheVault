@@ -1,0 +1,17 @@
+Inserted Money to Users Balance. ID of transaction: 1 Username: name: John last name: Cena and email: johncenaofficial@gmail.com and id: 2 Date: 13/04/2016 10:09:44
+Inserted Money to Users Balance. ID of transaction: 1 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:16:12
+Inserted Money to Users Balance. ID of transaction: 1 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:16:57
+Transacted. ID of transaction: 3 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:17:18
+Transacted. ID of transaction: 4 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:17:57
+Transacted. ID of transaction: 5 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:18:21
+Inserted Money to Users Balance. ID of transaction: 1 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:23:20
+Transacted. ID of transaction: 2 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:23:29
+Transacted. ID of transaction: 3 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:23:57
+Transacted. ID of transaction: 1 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:29:20
+Transacted. ID of transaction: 100 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:30:25
+Inserted Money to Users Balance. ID of transaction: 101 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:30:34
+Transacted. ID of transaction: 100 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 10:36:38
+Inserted Money to Users Balance. ID of transaction: 100 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 13/04/2016 11:20:38
+Inserted Money to Users Balance. ID of transaction: 101 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 21-06-2016 15:58:16
+Inserted Money to Users Balance. ID of transaction: 104 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 21-06-2016 19:03:12
+Transacted. ID of transaction: 105 Username: name: Jacob last name: Thomsen and email: cardisbunx@gmail.com and id: 1 Date: 21-06-2016 19:03:19

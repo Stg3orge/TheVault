@@ -1,0 +1,214 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title> Carrot Farm Website for Pernicus </title>
+
+<!-- Meta er descriptions der kan dukke op på f.eks. google og giver tags samt en author og sproget.-->
+<meta name="description"content="This is a web page about carrots. We cover all carrots of the world." />
+
+<meta name="keywords"content="carrots, soil, water, liquid, farming, pern" />
+
+<meta http-equiv="author"content="Daniel J. Pernicus" />
+
+<meta http-equiv="content-language"content="en-us" />
+
+</head>
+
+<!--Body er en wrapper-->
+<body>
+
+<h1> Carrot Patch Farm </h1>
+
+<!-- <p> er et eksempel på et element uden en attribute-->
+<p> Welcome to the carrot farm pernG </p>
+
+<!--Spaces-->
+test &nbsp&nbsp&nbsp test
+
+<!--Line breaks>
+<br>
+<br>
+<br>
+
+<!--this is a comment-->
+
+<h2> We out here farming: </h2>
+
+<!--Unordered list-->
+	<ul> 
+		<li> Carrot </li>
+		<li> Soil </li>
+		<li> Water </li>
+	</ul>
+
+<p> Carrots are healthy </p>
+
+<p> This is dangerous to the plantation: </p>
+
+<!--Ordered list-->
+	<ol>
+		<li> Fire </li>
+		<li> Acid </li>
+		<li> Pesticide </li>
+	</ol>
+
+<h3> Section 3 of carrot farming </h3>
+
+<!--table element-->
+<table>
+
+<!--This is a column set-->
+<tr>
+	<th> The carrots </th>
+	<th>The rain </th>
+	<th> The soil </th>
+</tr>
+
+<tr>
+	<td> Orange </td>
+	<td> Liquidy </td>
+	<td> Fertile </td>
+</tr>
+
+<tr>
+	<td> Healthy </td>
+	<td> Wet </td>
+	<td> Non-edible </td>
+</tr>
+
+</table>
+
+<!--Link to external webpage-->
+<h2> Links </h2>
+
+<p>
+	<a href="https://twitch.tv/djpernicus"> DJ STRIM pernG </a>
+</p>
+
+<!--Link to sections on this webpage-->
+<ul>
+	
+	<li>
+		<a href="#carrots"> Carrots Section </a>
+	</li>
+
+	<li>
+		<a href="#soil"> Soil Section </a>
+	</li>
+
+</ul>
+
+<p> <a name="carrots"> This is the Carrot Section </a> </p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p> <a name="soil"> This is the Soil Section </a> </p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--Inserting a picture from source folder of html file-->
+<h1> Carrot Picture </h1>
+
+<p> <img src="carrots.jpg" width="200" height="200"> </p>
+
+<br>
+
+<form action="" method="">
+<!--Fieldset is a box wrapping around the form-->
+<fieldset>
+
+<!--Text boxes with labels-->
+<label for="firstname">First name:</label>
+<input type="text" id="firstname" name="" size="50">
+
+<br>
+
+<label for="lastname">Last name:</label>
+<input type="text" id="lastname" name="" size="50">
+
+<br>
+
+Comments on carrots: <br>
+<textarea rows="10" cols="20"> </textarea>
+<input type="submit" value="Submit" name="">
+
+<br>
+
+<!--Make sure name is the same so you cant select both-->
+Yes:
+<input type="radio" name="yesorno" value="">
+
+<br>
+
+No:
+<input type="radio" name="yesorno" value="">
+
+<br>
+
+Which carrots are you interested in? <br>
+
+<input type="checkbox" name="carrot"> pernCC <br>
+<input type="checkbox" name="carrot"> pernG <br>
+<input type="checkbox" name="carrot"> pernF <br>
+<input type="checkbox" name="carrot"> pernDead <br>
+
+<br>
+
+<!--Number box-->
+<input type="number" min="0" max="49">
+
+<br>
+
+<select>
+	<option value="PernFarm">Pern's Farmland</option>
+	<option value="PernPatch"> Pern's Carrot patch</option>
+	<option value="PernBarn"> Pern's Barnhouse for baby carrots</option>
+</select>
+
+<br>
+
+<!--Legend er en title sort of til en sætning-->
+<legend> Enter day you want to travel to perns farmland:
+<input type="date" name="day">
+Number of days: <input type="number" name="numdays" min="1" max="7">
+
+<br><br>
+
+Name: <input type="text">
+
+</fieldset>
+
+<!--Eksempler på escape characters for at undgå at det bliver recognized som html-->
+<p> And so we &gt end our tale of carrots. &nbsp;&nbsp;&nbsp;&nbsp; The End. &#8482;&copy; </p>
+
+<!--Bold og italic-->
+<p> This is a <b> bold element </b> </p>
+<p> This is a <strong> strong element </strong> </p>
+
+<p> This is an <i> italic element </i> </p>
+<p> This is an <em> Em element </em> </p>
+
+<br><br><br>
+
+<iframe frameborder="1" width="200" height="200" src="first.html" name="ouriframe" id="ouriframe">
+	Do you see this?
+</iframe>
+
+<a href="second.html" target="ouriframe">Switch to second.html page, hyperlink </a>
+
+</body>
+
+</html>

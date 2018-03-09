@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ClickCounter
+comment0.text=\r\n\ Implements\ a\ click\ counter,\ also\ called\ a\ tally\ counter.\r\n\ At\ e.g.\ events,\ organizers\ often\ want\ to\ know\ how\ many\ people\ attended.\ \r\n\ Surveys\ are\ often\ conducted\ by\ counting\ e.g.\ people\ or\ cars\ passing\ by.\r\n\ For\ this,\ a\ click\ counter\ is\ often\ used.\ \r\n\ A\ person\ resets\ the\ click\ counter\ -\ modeled\ by\ calling\ the\ reset()\ method.\r\n\ He\ then\ clicks\ the\ counter\ every\ time\ he\ observes\ what\ he\ wishes\ to\ count.\ Modeled\ by\ calling\ the\ click()\ method.\r\n\ The\ current\ count\ is\ displayed\ on\ counter,\ here\ modeled\ by\ calling\ the\ getCount()\ method.\r\n\ \r\n\ Task\:\r\n\ Implement\ JUnit\ test\ class,\ and\ test\ all\ the\ functions.\r\n\ Do\ they\ pass\ the\ tests\ as\ expected?\r\n\ If\ you\ find\ errors,\ fix\ the\ code\!\r\n\ \r\n\ @author\ Istvan\ Knoll\r\n\ @version\ 2014-10-27\r\n
+comment1.params=
+comment1.target=ClickCounter()
+comment1.text=\r\n\ Creates\ a\ new\ ClickCounter\ object\r\n
+comment2.params=
+comment2.target=int\ getCount()
+comment2.text=\r\n\ Returns\ the\ current\ count\ -\ the\ display\ value\ of\ the\ click\ counter\r\n\ @return\ count\ the\ value\ that\ would\ be\ showing\ on\ the\ click\ counter\r\n
+comment3.params=
+comment3.target=void\ click()
+comment3.text=\r\n\ Models\ the\ behaviour\ of\ the\ click\ counter.\ Each\ click\ increments\ count\ by\ 1.\r\n
+comment4.params=
+comment4.target=void\ reset()
+comment4.text=\r\n\ Resets\ count\ to\ 0.\r\n
+numComments=5

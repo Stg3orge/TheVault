@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>190</y>
+      <w>170</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Bil
+--
+mærke
+forsikringer
+model
+VIN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>190</y>
+      <w>170</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+name
+address
+phonenumber
+e-mail
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>210</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Ejerskab
+m1=0..1
+m2=0..*</panel_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>250</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Brugere
+m1=0..*
+m2=0..*</panel_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>470</y>
+      <w>180</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Hans : Person
+--
+name : "Hans"
+address : "Skovvejen 12"
+phonenumber : "51222222"
+e-mail : "ggg@gmail.com"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>600</y>
+      <w>180</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Grethe : Person
+--
+name : "Grethe"
+address : "Skovvejen 12"
+phonenumber : "55555555"
+e-mail : "hhhh@gmail.com"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>510</y>
+      <w>170</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Toyota BB : Bil
+--
+mærke : "Toyota"
+forsikringer : "Kasko"
+model : "BB"
+VIN : 951715805</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>510</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Ejerskab</panel_attributes>
+    <additional_attributes>210.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>560</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Ugyldigt</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>

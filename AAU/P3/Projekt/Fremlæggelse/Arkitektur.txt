@@ -1,0 +1,45 @@
+Arkitektur
+
+- Kriterier
+	. Brugsmønstre kom fra spørgeskema og vores intentioner om brugen
+
+	. kriterierne kommer af brugsmønstrene
+
+	. Mest orienteret for lærere og kursister
+
+	. Brugbart: Adaptede det til virksomheden der skal bruge det, computere primært
+
+	. Pålideligt:  Fungerer Functions som de skal hele tiden?
+
+	. Effektivt: Ikke bruger meget tid på loading, mange klienter
+
+	. Korrekt: Informantens ønsker opfyldt, Rasmus gennemgang af program
+
+	. Integrerbart: Sammensættes med current arbejdsmodel i problemområdet.
+
+	. Sikkerhed: Vi har sat den som mindre vigtigt efter informantens ønsker om hurtigt system. Følsomme informationer bliver behandlet. Derfor ikke irrelevant. EN IKKE KRYPTERET LOGIN.
+
+- klient
+	. grundarkitektur klientserver / en blanding af klientserver og grund
+	
+	. Grundarkitektur fra Server komponenten.
+
+	. Den bedste måde at håndtere et system hvor mange klienter skal kommunikere med en mainframe er klientserver
+
+	. Et Mainframe, alt data tilgængeligt overalt fysisk i verden
+
+	. Ikke gå for meget i dybden med forklaring, det vigtigste er Funktionerne der ændrer udseendet af brugergrænsefladen: SKEMA osv.
+
+	. Tekniske platform komponent er en 
+	subsystem forskellige lag benytter andre øvre lag
+
+	. open strict
+
+- Modelkomponenter
+
+	. Entity så alle har et ID
+
+	. attributerne er der, hvad jeg skal sige om dem er lidt meh, kan bare sige de er der
+
+	. sammeling gamle klassediagram med nye, 1..x 1.. osv også
+		- 3 nye klasser: Entity, Afleveringskarakter, Kursuskarakter

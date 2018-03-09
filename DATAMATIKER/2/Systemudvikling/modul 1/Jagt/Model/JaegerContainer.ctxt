@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=JaegerContainer()
+comment1.params=jaeger
+comment1.target=void\ addJaeger(Jaeger)
+comment2.params=id
+comment2.target=Jaeger\ findJaeger(int)
+numComments=3

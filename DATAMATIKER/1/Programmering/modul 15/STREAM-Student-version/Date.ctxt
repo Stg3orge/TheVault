@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Date
+comment0.text=\r\n\ This\ class\ represents\ a\ date\ that\ can\ be\ \r\n\ increased\ and\ decreased\ by\ one\ day\ and\ \r\n\ provides\ a\ String\ representation\ of\ the\ date.\r\n\r\n\ @author\ Kis\ Boisen\ Hansen,\ KNOL\r\n\ @version\ 2011.03.14,\ 2015.10.13,\ 2016.10.16,\ 2017.10.18\r\n
+comment1.params=d\ m\ y
+comment1.target=Date(int,\ int,\ int)
+comment1.text=\r\n\ @param\ d\ day\ of\ the\ month\r\n\ @param\ m\ month\ of\ the\ year\r\n\ @param\ y\ the\ year\ 4\ digits\r\n
+comment2.params=
+comment2.target=void\ setToNextDate()
+comment3.params=
+comment3.target=void\ checkDayOverflow()
+comment4.params=
+comment4.target=void\ setToPreviousDate()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

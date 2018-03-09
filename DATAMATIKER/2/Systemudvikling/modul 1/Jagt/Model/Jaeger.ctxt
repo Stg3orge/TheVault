@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Jaeger()
+comment0.text=\r\n\ Constructors\ for\ objects\ of\ class\ Jaeger\r\n
+comment1.params=id\ navn\ adresse
+comment1.target=Jaeger(int,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=id
+comment3.target=void\ setId(int)
+comment4.params=
+comment4.target=java.lang.String\ getNavn()
+comment5.params=navn
+comment5.target=void\ setNavn(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getAdresse()
+comment7.params=adresse
+comment7.target=void\ setAdresse(java.lang.String)
+numComments=8

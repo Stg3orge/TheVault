@@ -1,0 +1,20 @@
+KEYWORDS
+
+crowded, pathing, people:
+
+CREATING DYNAMIC AND DENSITY DEPENDENT INDICATIVE ROUTES FOR CROWD SIMULATION
+http://dspace.library.uu.nl/handle/1874/302259
+
+GAME AI PRO 2 - VEDRØRENDE COMPUTER AI OG PATHING I NOGLE CHAPTERS - TEKNISK
+https://books.google.dk/books?hl=en&lr=&id=7XV3CAAAQBAJ&oi=fnd&pg=PA173&dq=crowded,+pathing&ots=IplPsWiJgj&sig=oBQbJ0ai2H1kHYB4RRh9vGu0hpg&redir_esc=y#v=onepage&q=crowded%2C%20pathing&f=false
+
+crowd, pedestrian, pathing:
+
+Architectures for distributed, interactive and integrated traffic simulations
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7223284&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7223284
+PRØV AAU LOGIN
+
+crowd, tokyo subway, exit:
+
+AN AGENT-BASED SIMULATION MODEL OF EVACUATION IN A SUBWAY STATION
+http://128.40.111.250/cupum/searchpapers/papers/paper184.pdf

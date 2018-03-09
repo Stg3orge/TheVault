@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=JagtCtr()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ JagtCtr\r\n
+comment1.params=jaegerId\ art
+comment1.target=void\ nedlaegDyr(int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ autoGenerateNr()
+numComments=3

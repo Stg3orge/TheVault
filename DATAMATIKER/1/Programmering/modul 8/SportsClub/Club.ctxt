@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Club
+comment1.params=name
+comment1.target=Club(java.lang.String)
+comment2.params=_name
+comment2.target=void\ setName(java.lang.String)
+numComments=3

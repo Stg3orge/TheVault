@@ -1,0 +1,101 @@
+body 
+{
+	color: lavender;
+	font-family: Verdana, Arial, Geneva, Arial Black;
+	font-weight: normal;
+	background-color: #778899;
+	font-size: 25px;
+	border-width: 2px;
+}
+
+h1, h2 
+{
+	color: lavender;
+	background-color: pink;
+	text-decoration: underline;
+}
+
+h1
+{
+	text-decoration: underline;
+	font-size: 150%;
+	text-align: center;
+}
+
+/*CLASSES*/
+p.bluetext 
+{
+	color: blue;
+	font-size: 16px;
+
+}
+
+p.greentext 
+{
+	color: green;
+	font-size: 16px;
+	
+}
+
+.purple
+{
+	color: purple;
+	font-size: 25px;
+	
+}
+
+p.para1
+{
+	font-size: 15px;
+	line-height: 1.5em;
+	background-color: #D5D9DE;
+	padding: 20px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+p.para2
+{
+	color: #205566;
+	font-size: 15px;
+	line-height: 1.5em;
+	background-color: #D5D9DE;
+	padding: 20px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	margin: 20px;
+	margin-top: 50px;
+	margin-left: 400px;
+}
+
+.image
+{
+	text-align: center;
+	display: block;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: silver;
+	padding: 3px;
+}
+
+.twitchimage
+{
+	text-align: left;
+	display: block;
+	float: left;
+}
+
+#divmain
+{
+	color: #39536D;
+}
+
+#divcarrot
+{
+	color: #39536D;
+}

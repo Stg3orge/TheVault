@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>10</x>
+      <y>880</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Domænenemodel 
+for ordrestyring</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>10</x>
+      <y>20</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Objektdiagram for
+ordrestyring</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>710</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+name
+addres
+oprettelse</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>710</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Order
+--
+orderNo
+date
+betalingsdato
+pakkedato
+afsendt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>730</y>
+      <w>270</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..1
+m2=0..*
+places &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>710</y>
+      <w>130</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Vare
+--
+varebeskrivelse
+pris</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>740</y>
+      <w>270</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+has an
+m1=1
+m2=1..*</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>250</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Hans : Customer
+--
+Hans : name
+Silkebogvej 2 : address
+null : oprettelse</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>130</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>101 : Order
+--
+101 : orderNo
+15.7.2017 : date
+21.7.2017 : betalingsdato
+16.7.2017 : pakkkedato
+19.7.2017 : sendt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1030</x>
+      <y>90</y>
+      <w>180</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>"OOA&amp;D" : Vare
+--
+Lol : varebeskrivelse
+600 : pris</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1030</x>
+      <y>230</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>"UML" : Vare
+--
+oy vey : varebeskrivelse
+788 : pris</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>340</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Grethe : Customer
+--
+Grethe : name
+Silkebogvej 3 : address
+null : oprettelse</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>160</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Knud : Customer
+--
+Knud : name
+Silkebogvej 5 : address
+20.7.2017 : oprettelse
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1030</x>
+      <y>370</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>"Java" : Vare
+--
+javabogen : varebeskrivelse
+1500 : pris</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>280</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>110 : Order
+--
+110 : orderNo
+26.7.2017 : date
+26.7.2017 : betalingsdato
+null : pakkedato
+null : sendt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>420</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>102 : Order
+--
+102: orderNo
+25.7.2017 : date
+null : betalingsdato
+25.7.2017 : pakkedato
+26.7.2017 : sendt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>180</y>
+      <w>270</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;110.0;250.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>280</y>
+      <w>270</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;250.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>370</y>
+      <w>270</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;250.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>80</y>
+      <w>170</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;110.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>310</y>
+      <w>180</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;160.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>170</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>320</y>
+      <w>180</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;150.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>710</y>
+      <w>130</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Orderline
+--
+antal
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>740</y>
+      <w>280</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+has a
+m1=1..*
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>60</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>101-2 : Orderline
+--
+1 : antal
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>80</y>
+      <w>130</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;110.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>170</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>101-1 : Orderline
+--
+1 : antal
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>190</y>
+      <w>170</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;150.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>280</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>102-1 : Orderline
+--
+1 : antal
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>860</x>
+      <y>140</y>
+      <w>190</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;140.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>390</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>110-1 : Orderline
+--
+1 : antal
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>390</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+</diagram>

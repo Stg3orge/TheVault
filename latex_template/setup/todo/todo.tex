@@ -1,0 +1,10 @@
+%todo commands
+
+%example
+%the syntax for this command is \todoexample{Some comment or whatever.}
+\newcommand{\todoexample}[2][ ]
+{
+  \ifthenelse{\equal{#1}{inline}}
+    {\todo[inline, size=\small, color=blue!40]{\textbf{Example:} #2}}
+    {{\includegraphics[height=2ex]{setup/todo/example}} \todo[size=\small, color=blue!40]{\textbf{Example:} #2}}
+}

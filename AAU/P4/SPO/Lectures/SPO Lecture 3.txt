@@ -1,0 +1,63 @@
+SPO Lecture 3
+
+1. Overview of the compilation of a simple language
+
+
+- Compilers go through code like a textfile, characters one at a time.
+- The 3 phases of a compiler is:
+	. Syntax Analysis -> Error reports
+		* Produces an Abstract Syntax Tree for reading by the contextual analysis.
+	. Contextual Analysis -> Error reports
+		* Produces Decorated Abstract Syntax Tree for reading by Code Generation
+	. Object Code
+- Compilers splits into two phases: Scanning Phase and Parser Phase.
+	. Scanner goes through each character read and creates tokens for use by the Parser.
+	. Parser goees through tokens and creates a syntax tree
+		* Syntax Tree will be the input for the typer checker.
+
+- Fischers book for compiler in different chapters, look slide.
+
+- You need a language specification before implementing a compiler.
+
+2. Simple language: ac (Adding Calculator)
+
+- Types
+	. Integer
+	. Floats
+	. Automatic type conversion from int to float
+- Keywords
+	. f: float
+	. i: int
+	. p: print
+- Variables
+	. 23 lowercase Roman alphabet except f, i and p.
+
+- in 'ac' you have to declare every variable before assigning a value to them
+	. f b
+		* b = 14
+	. i a
+		* a = 5
+- 'ac' target language is 'dc'
+	. look slide for comparison
+- CFG (Context Free grammar)
+	. Look slide for example program specification in CFG
+- Making a Syntax Tree makes a lot of sense to visualise your syntax of your language
+	. Look slide for example tree
+
+- Terminal expressions are the expressions used when writing in a console to run a piece of code
+	. Examples are
+		* floatdcl = f
+		* intdcl = i
+		* print = p
+		* id = [a-e] [g-h] [j-o] [q-z]
+		* assign = "="
+- Regular Expressions are f and i for example or Class in C#
+	. These are 'Tokens'
+	. Tokens are identifiers given to the scanner
+- Scanner reads a source 'ac' program as a text file and creates 'Tokens'
+
+
+
+
+
+

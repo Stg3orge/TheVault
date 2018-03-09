@@ -1,0 +1,24 @@
+   "while(ok && i<s.length())
+    {
+      String tmp= s.substring(i,i+1);
+      if(startSym(tmp))
+      {
+          stringStack.push(tmp);
+      }
+      if(endSym(tmp))
+      {
+        if(!stringStack.isEmpty())
+        {
+          String stTop= stringStack.pop();
+          if(!match(stTop,tmp))
+            ok= false;
+        }
+        else
+        {
+          ok= false;
+        }
+      }
+      i++;
+    }"
+
+"{a b{  }kk}"

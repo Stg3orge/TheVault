@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Jagt()
+comment0.text=\r\n\ Constructors\ for\ objects\ of\ class\ Jagt\r\n
+comment1.params=nr\ dato\ jaeger\ vildt
+comment1.target=Jagt(int,\ java.lang.String,\ Jaeger,\ Vildt)
+comment2.params=
+comment2.target=int\ getNr()
+comment3.params=nr
+comment3.target=void\ setNr(int)
+comment4.params=
+comment4.target=java.lang.String\ getDato()
+comment5.params=dato
+comment5.target=void\ setDato(java.lang.String)
+comment6.params=jaeger
+comment6.target=void\ setJaeger(Jaeger)
+comment7.params=
+comment7.target=Jaeger\ getJaeger()
+comment8.params=vildt
+comment8.target=void\ setVildt(Vildt)
+comment9.params=
+comment9.target=Vildt\ getVildt()
+numComments=10

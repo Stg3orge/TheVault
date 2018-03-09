@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>140</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Kunde
+--
+name
+e-mail
+address
+CPR
+phone</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>140</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Konto
+--
+id
+pin</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>170</y>
+      <w>300</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Ownership
+m1=1..*
+m2=1..1</panel_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>540</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Boje : Kunde
+--
+name : "Boje"
+e-mail : "hsfhsl@gmail.com"
+address : "Hapavej 11"
+CPR : "90955591"
+phone : "90902922"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>540</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Budgetkonto : Konto
+--
+id : "800120"
+pin : "980"</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

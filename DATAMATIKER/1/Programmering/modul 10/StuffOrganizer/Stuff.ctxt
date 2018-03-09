@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Stuff
+comment1.params=name\ _price\ _count
+comment1.target=Stuff(java.lang.String,\ double,\ int)
+comment2.params=
+comment2.target=Stuff()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=double\ getPrice()
+comment5.params=
+comment5.target=int\ getCount()
+comment6.params=price
+comment6.target=void\ setPrice(double)
+comment7.params=count
+comment7.target=void\ setCount(int)
+numComments=8

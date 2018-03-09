@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Keyboard
+comment1.params=model\ isWireless\ language
+comment1.target=Keyboard(java.lang.String,\ boolean,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getModel()
+comment3.params=_model
+comment3.target=void\ setModel(java.lang.String)
+comment4.params=
+comment4.target=boolean\ getIsWireless()
+comment5.params=_isWireless
+comment5.target=void\ setIsWireless(boolean)
+comment6.params=
+comment6.target=java.lang.String\ getLanguage()
+comment7.params=_language
+comment7.target=void\ setLanguage(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ shortLanguage()
+comment9.params=
+comment9.target=void\ Print()
+numComments=10

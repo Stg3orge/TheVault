@@ -1,0 +1,64 @@
+OS - Lecture 1
+
+Parallelisme - Kerner
+Multi-thread - Performance / Mange problemr samme tid
+
+System-nært programmering
+Indlejret system/embedded - Computere i andre ting
+Real-tid system, et system der skal nå en deadline
+
+Fundamental koncepter
+caching - En lille hukommelse der indeholder tidlig benyttet data til hurtigt retrieval
+Scheduling - Earliest-deadline-first - Hvis alle deadlines kan overholdes er det smart
+Virtuel hukommelse - Lade som om vi har flere resourcer end vi egentlig har - visualiseringer
+
+PENSUM - er også slides, øvelser også måske til eksamen der introducerer et begreb
+
+1. Hvad er et systemkald i et OS
+ - fgetc eks, Et kald en programmør kan bruge i sit program til at kommunikere med OS'et
+ - OS'et styrer processer, vigtigste funktion er at eksekvere programmer
+ - Primær hukkomelse/RAM
+ 	. Kan hurtigt blive overskrevet
+ 	. Ryger når computeren slukkes
+ 		* Såsom linjen man skriver på i sit document
+ 	. OS'et bestemmer ultimativt hvor meget hukommelse et program får
+ 	. En lile del af en blok hukommelse er til koden og data ellers er alt resterende plads ren hukkomelse
+ - OS ER BARE ET PROGRAM
+ 	. Det første program der kører på CPU'en har fulde rettigheder til alt
+ 	. OS'en sætter alle programmer ind i en række hukommelse den allokerer
+ - Der er MULIGT at flytte en kørende process, men det er ekstremt farligt i forhol til pointere og adresser i RAM
+ - Virtuel hukommelse er nøglen til at flytte hukommelse rundt i RAM
+ - Et register en lille memory patch, den er inde i CPU'en, en temporary variable hurtigt at hente
+ 	. Den peger på den næste instrktion der skal udføres
+ 	. Der findes også en stack pointer, peger på enten det næste element i stacken eller det øverste
+ - PSW, program status worth, en masse flag som er en enkelt bit, holder status på status
+ - Vi kan gemme registre i primær hukommelse
+ - Hver process i RAM har en PCB(en controller)
+ - Hvis jeg gerne vil flytte en process til et nyt sted i memory
+ 	. Man kan bruge PCB der indeholder registre data tilsvarende for processens hukkomelses data
+ 	. Alle processer har tilsvarende værdier, så man hurtigt kan bruge registrende til at finde rundt
+ - Pointen med CPU'en der er det vigtigste er at processe instruktioner
+ 	. I-fetch løkken, Intstruction-fetch
+ 		* Det er maskin-kode, der bliver omformet til instruktioner i form af mikro-kode, det er en afkoder af maskinkode
+ 		* Interrupt er en strøm signal udefra, f.eks. en ledning
+ 			^ Der kommer et tal ind, f.eks. 17  eller 42
+ 		* Interrupt -vektor tabellen, signalet kigger på tabellen efter tallet kommer ind
+ 			^ Den ligger i OS processen i RAM
+ 		* Interrupten er et signal der kan komme mange steder fra, mest fra CPU nu om dage
+ 		* Interrupten kan times, så den kommer regelmæssigt
+ 		* Interrupten kan komme fra keyboardet elle musen
+ 			^ Her læses knappen der trykkes og send det videre
+ - OS processen kan håndtere hardware igennem device-driveren
+ - En process er en blok hukommelse dedikeret til et program
+ - En tråd er en maskin kode der eksekveres
+
+ - Sekundær hukommelse
+ 	. HDD er sekundær
+ 	. Bussen fører hukommelse til Primær/RAM
+ 		* Bussen er ledninger
+ 		* Bussen er styret af CPU'en der giver en kommando
+ 		* Bussen går efter en adresse på RAM, er der så også plads i RAM til data efter arrival
+ 	. Der sidder små computere på HDD'ens plader
+ 	. Alle processer tager en lille del af RAM
+
+2. Lav en model over hvor begreber hører til henne rendt fysisk i en Computer.

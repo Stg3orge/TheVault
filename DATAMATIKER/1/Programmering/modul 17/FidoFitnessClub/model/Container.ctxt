@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Container
+comment1.params=
+comment1.target=Container()
+comment2.params=
+comment2.target=Container\ getInstance()
+comment3.params=m
+comment3.target=void\ addMember(Member)
+numComments=4

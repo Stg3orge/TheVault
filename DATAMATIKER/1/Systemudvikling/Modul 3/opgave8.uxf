@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>50</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>/Person/
+--
+name
+id
+address
+email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>270</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>/Kunde/
+--
+kundenummer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>270</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Ekspedient
+--
+lønKonto</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>480</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Erhvervskunde
+--
+firma</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>480</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Privatkunde
+--
+firma</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>310</y>
+      <w>120</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>310</y>
+      <w>110</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0;90.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>90</y>
+      <w>130</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>90</y>
+      <w>130</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0;110.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1210</x>
+      <y>700</y>
+      <w>150</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Prisklasse
+--
+maks
+minimum</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>150</y>
+      <w>200</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Bil
+--
+mærke
+model
+farve
+antalDøre
+siddePladser
+pris</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1270</x>
+      <y>270</y>
+      <w>50</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;430.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>720</y>
+      <w>150</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Reservation
+--
+reservationsNummer
+udlånsDato
+aflDato
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>350</y>
+      <w>210</w>
+      <h>430</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;410.0;190.0;410.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>350</y>
+      <w>70</w>
+      <h>430</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>50.0;10.0;50.0;410.0;10.0;410.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>270</y>
+      <w>350</w>
+      <h>530</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>330.0;10.0;330.0;510.0;10.0;510.0</additional_attributes>
+  </element>
+</diagram>

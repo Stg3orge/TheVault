@@ -1,0 +1,44 @@
+SPO Lecture 1
+
+1. What is the MOST Important open problem in Computing?
+- Increasing Programmer Productivity
+	. Write Programs quickly
+	. Write programs easily
+	. Write programs correctly
+We need to make programmers more efficient.
+
+- 3 ways to incease productivity
+	. ( Process in software engineering )
+	. ( Tools, static analysis, program generation )
+	. ( Better designed Languages )
+
+- Every language has some flaw that can be remedied in a new language
+
+2. What is a programming language
+
+- A set of rules to convey your intentions to a computer
+- Some languages are good at some specific thing others are better at other things
+
+3. Criteria on good language
+
+Readability
+	How easy is it to comprehend
+Write-ability
+	Easy to write the code
+Reliability
+	How easy is it to write programs that dont go wrong
+Orthogonality
+	The ease of using structures like an array in many differet ways, JAVA has example of parsing an array to a method
+
+(Evaluate your language on some of these criteria)
+
+Programming languages has to be specific so theres no confusion
+
+4. Programming Language Specification
+
+3 specification:
+
+Semantics
+	
+Contextual constraints
+Syntax
