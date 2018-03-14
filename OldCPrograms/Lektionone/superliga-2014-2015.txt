@@ -1,0 +1,230 @@
+Fre     18/07 18.30     FCN - FCV       3 - 2      3.349  
+Lor     19/07 17.00     SDR - AAB       0 - 0      3.228   
+Son     20/07 14.00     OB  - HOB       1 - 2      6.015   
+Son     20/07 17.00     SIF - FCK       0 - 0      5.416   
+Son     20/07 19.00     FCM - BIF       3 - 1      9.548   
+Man     21/07 19.00     EFB - RFC       0 - 1      7.257   
+
+Fre     25/07 18.30     FCV - OB        3 - 1      2.709  
+Lor     26/07 17.00     AAB - FCM       2 - 0      7.543   
+Lor     26/07 19.30     FCK - FCN       2 - 1     12.496  
+Son     27/07 17.00     RFC - HOB       2 - 1      6.929   
+Son     27/07 19.00     EFB - SDR       1 - 1      7.170   
+Man     28/07 19.00     BIF - SIF       2 - 0     15.986  
+
+Fre     01/08 18.30     SIF - SDR       0 - 2      3.105  
+Lor     02/08 15.00     FCV - FCK       2 - 2      5.127   
+Lor     02/08 17.00     OB  - AAB       1 - 1      5.840   
+Son     03/08 17.00     FCN - EFB       3 - 2      3.146   
+Son     03/08 19.00     HOB - BIF       2 - 0      6.583   
+Man     04/08 19.00     FCM - RFC       3 - 1      6.937   
+
+Fre     08/08 18.30     RFC - FCV       1 - 0      4.599  
+Lor     09/08 17.00     AAB - FCN       1 - 2      5.904   
+Son     10/08 14.00     SDR - FCM       1 - 3      4.119   
+Son     10/08 17.00     FCK - HOB       0 - 3     14.664  
+Son     10/08 19.00     BIF - OB        1 - 1     11.116  
+Man     11/08 19.00     EFB - SIF       0 - 0      5.728   
+
+Fre     15/08 19.30     FCK - FCM       1 - 2     13.106 
+Lor     16/08 18.00     AAB - EFB       1 - 1      5.319   
+Son     17/08 14.00     FCV - SIF       2 - 0      1.994   
+Son     17/08 17.00     BIF - SDR       2 - 0      9.962   
+Son     17/08 19.00     RFC - OB        0 - 2      3.952   
+Man     18/08 19.00     HOB - FCN       0 - 0      4.221   
+
+Lor     30/08 17.00     SDR - RFC       1 - 1      2.254  
+Son     31/08 13.00     SIF - AAB       2 - 2      3.067   
+Son     31/08 15.00     FCM - EFB       2 - 0      6.571   
+Son     31/08 17.00     FCN - BIF       0 - 3      7.689   
+Son     31/08 19.00     OB  - FCK       0 - 1      9.925   
+Man     01/09 19.00     HOB - FCV       3 - 1      2.682   
+
+Fre     12/09 18.30     FCM - OB        3 - 2      7.505  
+Lor     13/09 20.35     AAB - FCK       1 - 0      8.546   
+Son     14/09 14.00     SIF - FCN       1 - 2      2.390   
+Son     14/09 17.00     BIF - RFC       0 - 2     25.551  
+Son     14/09 19.00     EFB - FCV       3 - 0      5.209   
+Man     15/09 19.00     SDR - HOB       1 - 1      4.138   
+
+Fre     19/09 18.30     RFC - SIF       1 - 0      5.126  
+Lor     20/09 17.00     HOB - EFB       1 - 1      3.736   
+Son     21/09 14.00     OB  - SDR       1 - 1      7.201   
+Son     21/09 16.30     FCK - BIF       1 - 0     32.526  
+Son     21/09 19.00     FCN - FCM       2 - 1      4.637   
+Man     22/09 19.00     FCV - AAB       1 - 0      2.703   
+
+Fre     26/09 18.30     AAB - RFC       0 - 0      5.357  
+Lor     27/09 15.00     SDR - FCK       1 - 1      5.535   
+Lor     27/09 17.00     SIF - HOB       2 - 2      3.081   
+Son     28/09 14.00     FCM - FCV       1 - 0      6.669   
+Son     28/09 19.00     EFB - BIF       2 - 2     10.650  
+Man     29/09 19.00     FCN - OB        2 - 1      4.425   
+
+Fre     03/10 18.30     HOB - FCM       1 - 5      4.968  
+Lor     04/10 17.00     OB  - SIF       2 - 0      5.587   
+Son     05/10 13.00     FCV - SDR       1 - 1      2.677   
+Son     05/10 15.00     RFC - FCN       0 - 0      5.021   
+Son     05/10 17.00     FCK - EFB       2 - 1     15.236  
+Son     05/10 19.00     BIF - AAB       2 - 1     15.412  
+
+Fre     17/10 18.30     AAB - HOB       1 - 1      9.923  
+Lor     18/10 17.00     FCN - SDR       2 - 3      3.512   
+Son     19/10 14.00     FCM - SIF       2 - 1      8.622   
+Son     19/10 17.00     BIF - FCV       5 - 0     12.190  
+Son     19/10 19.00     FCK - RFC       1 - 0     10.723  
+Man     20/10 19.00     EFB - OB        2 - 0      6.478   
+
+Fre     24/10 18.30     SIF - FCV       1 - 2      2.160  
+Lor     25/10 17.00     SDR - FCM       1 - 1      4.174   
+Son     26/10 14.00     RFC - OB        3 - 0      5.135   
+Son     26/10 17.00     HOB - FCK       0 - 2      4.738   
+Son     26/10 19.00     EFB - BIF       0 - 0     10.077  
+Man     27/10 19.00     FCN - AAB       0 - 1      4.016   
+
+Fre     31/10 18.30     FCM - FCN       2 - 0      6.543  
+Lor     01/11 17.00     FCV - EFB       1 - 4      2.602   
+Son     02/11 14.00     OB  - HOB       3 - 1      8.011   
+Son     02/11 17.00     FCK - SDR       1 - 1     21.413  
+Son     02/11 18.30     BIF - RFC       1 - 0      12.497  
+Man     03/11 19.00     AAB - SIF       2 - 0      6.240   
+
+Fre     07/11 18.30     SIF - FCM       1 - 2      3.587  
+Lor     08/11 19.00     RFC - EFB       3 - 2      3.929   
+Son     09/11 13.00     SDR - OB        2 - 1      4.428   
+Son     09/11 15.00     AAB - FCV       2 - 0      6.369   
+Son     09/11 17.00     HOB - BIF       3 - 0      4.389   
+Son     09/11 19.15     FCN - FCK       0 - 0      4.567   
+
+Fre     21/11 18.30     FCV - RFC       0 - 1      1.849  
+Lor     22/11 17.00     EFB - HOB       4 - 2      6.057   
+Lor     22/11 19.30     FCK - SIF       1 - 0      8.456   
+Son     23/11 14.00     OB  - FCN       1 - 0      5.927   
+Son     23/11 17.00     BIF - SDR       1 - 0     12.647  
+Son     23/11 19.00     FCM - AAB       2 - 0      8.005   
+
+Fre     28/11 18.30     SDR - EFB       0 - 0      2.609  
+Lor     29/11 17.00     SIF - OB        0 - 1      1.866   
+Son     30/11 14.00     HOB - RFC       0 - 1      3.884   
+Son     30/11 17.00     FCN - BIF       2 - 0      5.168   
+Son     30/11 19.00     AAB - FCK       0 - 1      7.437   
+Man     01/12 19.00     FCM - FCV       2 - 1      6.778   
+
+Fre     05/12 18.30     RFC - SDR       0 - 0      4.551  
+Lor     06/12 17.00     OB  - AAB       1 - 1      5.025   
+Son     07/12 14.00     FCV - HOB       1 - 1      2.377   
+Son     07/12 17.00     BIF - SIF       1 - 0     19.304  
+Son     07/12 19.00     FCK - FCM       3 - 0     17.499  
+Man     08/12 19.00     EFB - FCN       0 - 0      5.150   
+
+Fre     20/02 18.30     FCN - RFC       0 - 3      3.316  
+Lor     21/02 17.00     SIF - EFB       1 - 3      2.247   
+Son     22/02 14.00     SDR - HOB       1 - 0      3.812   
+Son     22/02 17.00     FCK - FCV       2 - 0     12.631  
+Son     22/02 19.00     AAB - BIF       1 - 0      7.857   
+Man     23/02 19.00     FCM - OB        3 - 0      7.602   
+
+Fre     27/02 18.30     FCV - SDR       0 - 1      1.750  
+Lor     28/02 17.00     HOB - FCN       1 - 0      2.086   
+Son     01/03 14.00     RFC - SIF       1 - 2      4.263   
+Son     01/03 17.00     OB  - FCK       1 - 0      8.421   
+Son     01/03 19.00     BIF - FCM       1 - 1     13.092  
+Man     02/03 19.00     EFB - AAB       1 - 3      5.260   
+
+Lor     07/03 17.00     FCN - SDR       4 - 0      2.389  
+Son     08/03 13.00     SIF - HOB       0 - 1      2.620   
+Son     08/03 15.00     FCK - BIF       3 - 1     31.223  
+Son     08/03 17.00     FCM - EFB       3 - 0      9.190   
+Son     08/03 19.00     AAB - RFC       2 - 1      5.670   
+Man     09/03 19.00     FCV - OB        1 - 2      2.134   
+
+Fre     13/03 18.30     RFC - FCM       1 - 2      5.463  
+Lor     14/03 17.00     SDR - SIF       1 - 4      3.145   
+Son     15/03 14.00     FCN - FCV       2 - 0      3.243   
+Son     15/03 17.00     EFB - FCK       0 - 1      7.716   
+Son     15/03 19.00     BIF - OB        2 - 0     12.791  
+Man     16/03 19.00     HOB - AAB       1 - 0      6.596   
+
+Fre     20/03 18.30     OB  - EFB       0 - 2      6.005  
+Lor     21/03 17.00     FCM - HOB       3 - 0      9.202   
+Son     22/03 13.00     SIF - FCN       2 - 2      1.814   
+Son     22/03 15.00     AAB - SDR       1 - 4      4.644   
+Son     22/03 17.00     FCV - BIF       0 - 1      4.242   
+Son     22/03 19.00     FCK - RFC       1 - 1      9.520   
+
+Lor     04/04 17.00     SDR - FCN       1 - 2      2.375  
+Son     05/04 17.00     HOB - SIF       2 - 2      2.940   
+Son     05/04 19.00     EFB - FCM       3 - 3      7.682   
+Man     06/04 16.00     BIF - FCK       0 - 0     22.020  
+Man     06/04 19.30     RFC - AAB       1 - 1      5.083   
+Tir     07/04 19.00     OB  - FCV       1 - 2      4.331   
+
+Fre     10/04 18.30     HOB - EFB       3 - 1      2.743  
+Lor     11/04 17.00     RFC - FCV       1 - 1      4.557   
+Son     12/04 14.00     FCN - OB        1 - 2      5.264   
+Son     12/04 17.00     AAB - FCM       1 - 2      7.690   
+Son     12/04 19.00     SDR - BIF       0 - 1      4.633   
+Man     13/04 19.00     SIF - FCK       0 - 4      3.578   
+
+Fre     17/04 18.30     FCM - SIF       1 - 0      9.058  
+Lor     18/04 15.00     FCV - AAB       2 - 1      1.854   
+Son     19/04 14.00     OB  - SDR       0 - 0      6.644   
+Son     19/04 17.00     BIF - HOB       0 - 1     15.904  
+Son     19/04 19.30     FCK - FCN       2 - 0     10.944  
+Man     20/04 19.00     EFB - RFC       0 - 0      5.690   
+
+Fre     24/04 18.30     EFB - OB        0 - 2      5.402  
+Lor     25/04 17.00     FCN - SIF       1 - 0      3.883   
+Son     26/04 14.00     SDR - AAB       0 - 3      3.615   
+Son     26/04 17.00     BIF - FCV       4 - 0     12.014  
+Son     26/04 19.00     RFC - FCK       3 - 0      5.777   
+Man     27/04 19.00     HOB - FCM       0 - 0      4.166   
+
+Fre     01/05 18.30     AAB - HOB       5 - 0      9.401  
+Lor     02/05 17.00     SIF - SDR       2 - 2      1.965   
+Son     03/05 14.00     FCV - FCN       2 - 1      1.688   
+Son     03/05 17.00     FCK - EFB       2 - 1     12.892  
+Son     03/05 19.00     OB  - BIF       0 - 2      9.605   
+Man     04/05 19.00     FCM - RFC       5 - 2      9.039   
+
+Fre     08/05 18.30     RFC - FCN       2 - 0      5.930  
+Lor     09/05 17.00     EFB - SIF       5 - 2      6.741   
+Son     10/05 14.00     HOB - SDR       2 - 2      2.787   
+Son     10/05 17.00     OB  - FCM       3 - 1      6.378   
+Son     10/05 19.00     BIF - AAB       1 - 1     14.061  
+Man     11/05 19.00     FCV - FCK       0 - 1      3.544   
+
+Fre     15/05 18.30     AAB - OB        0 - 2      7.506  
+Son     17/05 14.00     HOB - FCV       0 - 1      2.082   
+Son     17/05 17.00     SIF - BIF       0 - 2      3.996   
+Son     17/05 19.00     FCM - FCK       2 - 0     11.305  
+Man     18/05 18.00     FCN - EFB       1 - 3      3.019   
+Man     18/05 20.15     SDR - RFC       1 - 1      2.524   
+
+Ons     20/05 18.00     OB  - SIF       1 - 1      4.717  
+Ons     20/05 20.00     FCK - AAB       1 - 0      8.127   
+Tor     21/05 18.00     RFC - HOB       0 - 1      6.499   
+Tor     21/05 18.00     FCV - FCM       0 - 0      2.432   
+Tor     21/05 20.00     BIF - FCN       3 - 1     10.052  
+Tor     21/05 20.00     EFB - SDR       2 - 3      6.060   
+
+Son     24/05 17.00     SDR - FCV       1 - 1      5.075  
+Man     25/05 13.00     FCN - HOB       4 - 2      3.392   
+Man     25/05 15.00     SIF - RFC       0 - 2      2.052   
+Man     25/05 17.00     FCK - OB        1 - 0     14.463  
+Man     25/05 19.00     FCM - BIF       2 - 3     11.535  
+Tir     26/05 19.00     AAB - EFB       1 - 0      4.793   
+
+Son     31/05 16.00     EFB - FCV       2 - 1     10.702 
+Son     31/05 16.00     RFC - BIF       1 - 1      9.143   
+Son     31/05 16.00     HOB - OB        2 - 2      2.958   
+Son     31/05 16.00     SDR - FCK       1 - 2      5.643   
+Son     31/05 16.00     FCN - FCM       1 - 0      4.408   
+Son     31/05 16.00     SIF - AAB       1 - 2      2.103   
+
+Son     07/06 16.00     OB  - RFC       0 - 2      7.000  
+Son     07/06 16.00     BIF - EFB       0 - 1     22.838  
+Son     07/06 16.00     AAB - FCN       1 - 0      6.776   
+Son     07/06 16.00     FCM - SDR       2 - 1     11.535  
+Son     07/06 16.00     FCK - HOB       1 - 0     16.699  
+Son     07/06 16.00     FCV - SIF       3 - 1      1.201   

@@ -1,0 +1,6 @@
+Contact and Help Information:
+
+CONTACT
+If you have additional questions not included in our FAQ you are welcome to contact us at "sampleemail@gmail.com."
+
+This program is entirely based on user directed prompts and thus has no dedicated User Interface. Therefore 
