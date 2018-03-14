@@ -1,0 +1,11 @@
+Welcome to the page for additional help outside the frequently asked questions.
+
+This program is intended for use by users with a working C compiler (such as MingW or Cygwin),
+since it is based on user-made prompts without an external user interface.
+
+It is also assumed that the user posseses a very basic knowledge of how to use such a compiler.
+This program is not intended for use by users not able to use a C compiler.
+Since this is still very much an early version there may be bugs or program errors, if you experience any you are welcome to contact us and inform us about them.
+
+To contact us about the program you can e-mail us at: 'sw1b2-24@student.aau.dk'
+Thank you.
