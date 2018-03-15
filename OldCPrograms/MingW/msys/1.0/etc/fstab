@@ -2,8 +2,8 @@
 # Please refer to /etc/fstab.sample for explanatory annotation.
 
 # MSYS-Portable needs this "magic" comment:
-# MSYSROOT=C:\Programs\Github\TheVault\OldCPrograms\MingW\msys\1.0
+# MSYSROOT=C:\Programs\Githubs\TheVault\OldCPrograms\MingW\msys\1.0
 
 # Win32_Path				Mount_Point
 #-------------------------------------	-----------
-C:\Programs\Github\TheVault\OldCPrograms\MingW			/mingw
+C:\Programs\Githubs\TheVault\OldCPrograms\MingW			/mingw

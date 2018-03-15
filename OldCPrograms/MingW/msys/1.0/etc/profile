@@ -56,5 +56,5 @@ $ '
 
 alias clear=clsb
 
-cd C:/Programs/Github/TheVault/OldCPrograms/Lektionone
+cd C:/Programs/Githubs/TheVault/OldCPrograms/Lektionone
 PS1='$ '

@@ -169,6 +169,4 @@ create table RentOut
 
 
 
-
-
 use master;
