@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1092</x>
+      <y>0</y>
+      <w>120</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+A
+--
++ a(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1092</x>
+      <y>132</y>
+      <w>120</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+B
+--
++ b(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1224</x>
+      <y>132</y>
+      <w>120</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+C
+--
++ c(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1140</x>
+      <y>72</y>
+      <w>36</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>288</y>
+      <w>132</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Abstract&gt;&gt;
+/AbstractClass/
+--
+--
+/+ ac(): void/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1356</x>
+      <y>132</y>
+      <w>120</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+D
+--
++ d(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1140</x>
+      <y>204</y>
+      <w>60</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1236</x>
+      <y>204</y>
+      <w>72</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>432</y>
+      <w>132</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Abstract&gt;&gt;
+/AbstractClazz/
+--
+--
+/+ ad(): void/
++ m(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>372</y>
+      <w>36</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1236</x>
+      <y>204</y>
+      <w>192</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1488</x>
+      <y>132</y>
+      <w>120</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+E
+--
++ e(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>600</y>
+      <w>132</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>MyClass
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>516</y>
+      <w>36</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1212</x>
+      <y>204</y>
+      <w>360</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>280.0;10.0;10.0;330.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1620</x>
+      <y>132</y>
+      <w>120</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+F
+--
++ f(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1236</x>
+      <y>204</y>
+      <w>456</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>360.0;10.0;10.0;330.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2088</x>
+      <y>540</y>
+      <w>336</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>PersonDBPostgres
+--
+_- CREATE_Q: String_
+_- UPDATE_Q: String_
+_- DELETE_Q: String_
+_- FIND_ALL_Q: String_
+_- FIND_BY_ID_Q: String_
+- create: PreparedStatement
+- update: PreparedStatement
+- delete: PreparedStatement
+- findAll: PreparedStatement
+- findById: PreparedStatement
+--
++ &lt;&lt;constructor&gt;&gt; PersonDBPostgres()
+- buildObject(rs: ResultSet): Person
+- buildObjects(rs: ResultSet): List&lt;Person&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2136</x>
+      <y>312</y>
+      <w>228</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+PersonDBIF
+--
++ create(p: Person): Person
++ update(p: Person): boolean
++ delete(p: Person): boolean
++ findAll(): List&lt;Person&gt;
++ findById(id: int): Person</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2232</x>
+      <y>456</y>
+      <w>36</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1728</x>
+      <y>540</y>
+      <w>336</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>PersonDBMSSQL
+--
+_- CREATE_Q: String_
+_- UPDATE_Q: String_
+_- DELETE_Q: String_
+_- FIND_ALL_Q: String_
+_- FIND_BY_ID_Q: String_
+- create: PreparedStatement
+- update: PreparedStatement
+- delete: PreparedStatement
+- findAll: PreparedStatement
+- findById: PreparedStatement
+--
++ &lt;&lt;constructor&gt;&gt; PersonDBMSSQL()
+- buildObject(rs: ResultSet): Person
+- buildObjects(rs: ResultSet): List&lt;Person&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1896</x>
+      <y>456</y>
+      <w>336</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>260.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2436</x>
+      <y>540</y>
+      <w>336</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>PersonDBCSV
+--
+- scanner: Scanner
+- file: File
+--
++ &lt;&lt;constructor&gt;&gt; PersonDBCSV(file: File)
+- buildObject(data: String[]): Person
+- buildObjects(data: String[][]): List&lt;Person&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2268</x>
+      <y>456</y>
+      <w>348</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;270.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2148</x>
+      <y>120</y>
+      <w>228</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>PersonCtr
+--
+
+--
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2244</x>
+      <y>192</y>
+      <w>132</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=
+
+
+
+- dataSource</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1212</x>
+      <y>1272</y>
+      <w>192</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Iterable
+--
++ iterator(): Iterator&lt;T&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1428</x>
+      <y>1272</y>
+      <w>168</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Collection
+--
++ add(e: E)
++ clear(): void
++ size(): int
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1116</x>
+      <y>1476</y>
+      <w>156</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Abstract&gt;&gt;
+/AbstractCollection/
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1416</x>
+      <y>1476</y>
+      <w>192</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+List
+--
++ indexOf(o: Object): int
++ get(i: int): E
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1188</x>
+      <y>1344</y>
+      <w>180</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1212</x>
+      <y>1368</y>
+      <w>240</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1128</x>
+      <y>1620</y>
+      <w>132</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Abstract&gt;&gt;
+/AbstractList/
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1176</x>
+      <y>1560</y>
+      <w>36</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1248</x>
+      <y>1572</y>
+      <w>192</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>1704</y>
+      <w>192</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>1908</y>
+      <w>132</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>ArrayList
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1116</x>
+      <y>1116</y>
+      <w>156</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Object
+--
+
+--
++ equals(): boolean
++ clone(): Object
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1176</x>
+      <y>1224</y>
+      <w>36</w>
+      <h>276</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1476</x>
+      <y>1392</y>
+      <w>60</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1344</x>
+      <y>1344</y>
+      <w>144</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1368</x>
+      <y>1908</y>
+      <w>132</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Vector
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1224</x>
+      <y>1704</y>
+      <w>240</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>1776</y>
+      <w>132</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+RandomAccess
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>1824</y>
+      <w>156</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1164</x>
+      <y>1872</y>
+      <w>108</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Cloneable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1092</x>
+      <y>1896</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1164</x>
+      <y>1956</y>
+      <w>108</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Serializable
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1092</x>
+      <y>1944</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>60.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1236</x>
+      <y>1824</y>
+      <w>168</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1896</y>
+      <w>132</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1944</y>
+      <w>132</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;30.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>924</x>
+      <y>2148</y>
+      <w>132</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+StackIF&lt;T&gt;
+--
+peek(): T
+pop(): T
+push(t: T): void
+size(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1212</x>
+      <y>2388</y>
+      <w>480</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>Node&lt;T&gt;
+--
+- value: T
+--
++ &lt;&lt;constructor&gt;&gt; Node(val: T, next: LinkedStack&lt;T&gt;.Node&lt;T&gt;)
++ getValue(): T
++ getNext(): LinkedStack&lt;T&gt;.Node&lt;T&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>2376</y>
+      <w>240</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>LinkedStack&lt;T&gt;
+--
+- size: int
+--
++ &lt;&lt;constructor&gt;&gt; LinkedStack()
++ peek(): T
++ pop(): T
++ push(t: T): void
++ size(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>2412</y>
+      <w>132</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-(+)
+
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1092</x>
+      <y>2472</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+r1=- top</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1212</x>
+      <y>2508</y>
+      <w>336</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+r1=- next: LinkedStack&lt;T&gt;.Node&lt;T&gt;</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>972</x>
+      <y>2280</y>
+      <w>36</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>912</x>
+      <y>2664</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_:LinkedStack_
+size = 3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1128</x>
+      <y>2664</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_:Node_
+value = "Joe"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1128</x>
+      <y>2784</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_:Node_
+value = "Juliette"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1128</x>
+      <y>2904</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_:Node_
+value = "John"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>2664</y>
+      <w>132</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=  top</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1188</x>
+      <y>2712</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=
+next</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1188</x>
+      <y>2832</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=
+next</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1188</x>
+      <y>2952</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=
+next</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>3084</y>
+      <w>132</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+StackIF&lt;T&gt;
+--
+peek(): T
+pop(): T
+push(t: T): void
+size(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>888</x>
+      <y>3324</y>
+      <w>480</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>Node&lt;T&gt;
+--
+- value: T
+--
++ &lt;&lt;constructor&gt;&gt; Node(val: T, next: LinkedStack&lt;T&gt;.Node&lt;T&gt;)
++ getValue(): T
++ getNext(): LinkedStack&lt;T&gt;.Node&lt;T&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>3312</y>
+      <w>240</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>LinkedStack&lt;T&gt;
+--
+- size: int
+--
++ &lt;&lt;constructor&gt;&gt; LinkedStack()
++ peek(): T
++ pop(): T
++ push(t: T): void
++ size(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>3348</y>
+      <w>132</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-(+)
+
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>768</x>
+      <y>3408</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+r1=- top</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>888</x>
+      <y>3444</y>
+      <w>336</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+r1=- next: LinkedStack&lt;T&gt;.Node&lt;T&gt;</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>3216</y>
+      <w>36</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>96</x>
+      <y>3084</y>
+      <w>300</w>
+      <h>276</h>
+    </coordinates>
+    <panel_attributes>RPNCalculator
+--
+_- BYE: String_
+_- PLUS: String_
+_- MINUS: String_
+_- MULTIPLY: String_
+_- DIVIDE: String_
+_- PLUSMINUS: String_
+--
+_+ main(args: String[]): void_
++ &lt;&lt;constructor&gt;&gt; RPNCalculator()
+- start(): void
+- number(input: String): boolean
+- unaryOperator(op: String): boolean
+- binaryOperator(op: String): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>3120</y>
+      <w>240</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+
+
+r1=- stack
+      &lt;&lt;bind&gt;&gt; T -&gt;Double 
+
+</panel_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

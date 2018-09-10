@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseFirstCsharp", "ExerciseFirstCsharp\ExerciseFirstCsharp.csproj", "{7569E7EF-DD2E-4D5F-BB20-BC7BB06CAC48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseFirstcsharpChallenge", "ExerciseFirstcsharpChallenge\ExerciseFirstcsharpChallenge.csproj", "{1D2DDC6A-BB38-41E8-BA40-2ED8490E6C1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7569E7EF-DD2E-4D5F-BB20-BC7BB06CAC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7569E7EF-DD2E-4D5F-BB20-BC7BB06CAC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7569E7EF-DD2E-4D5F-BB20-BC7BB06CAC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7569E7EF-DD2E-4D5F-BB20-BC7BB06CAC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2DDC6A-BB38-41E8-BA40-2ED8490E6C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2DDC6A-BB38-41E8-BA40-2ED8490E6C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2DDC6A-BB38-41E8-BA40-2ED8490E6C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2DDC6A-BB38-41E8-BA40-2ED8490E6C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

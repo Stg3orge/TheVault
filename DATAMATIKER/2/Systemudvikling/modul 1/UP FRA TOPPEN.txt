@@ -1,0 +1,37 @@
+UP FRA TOPPEN
+
+- USE CASES
+En Beskrivelse af Funktionelle Krav
+Prioritering af Use Cases
+	Komplekse Først
+		Hvor mange objekter snakker med hinanden om en funktion
+		ROI har også noget at sige
+		Nødt til at prioritere efter arkitektur sådan det ikke falder fra hinanden
+Analyser de enkelte højst prioriterede Use Cases
+
+-> Fully Dressed
+
+Lav en kandidatliste til en Domæne Model
+Konceptuelle Klasser
+Koder du fra en Domæne Model? Nej. Den siger ikke noget om IT Systemet kun om domænet og virksomheden.
+
+-> Domæne Model
+-> Database Design
+
+Analyser hver Use Case og laver en SSD
+Systemet som Sort Boks modtager kommando og giver et svar
+1:1 mellem Fully Dressed og SSD
+
+Er nogle af operationerne i SSD'en komplekse
+Lav en Operationskontrakt på dem, ingen andre.
+
+-> Interaktionsdiagram
+
+Objekter der interagerer, skrifter states osv.
+Analyser disse interaktioner og lav interaktionsdiagrammet.
+De er OBJEKTER IKKE KLASSER
+
+-> Designklasse Diagram
+
+Designklasse diagrammet laves ud fra Interaktionsdiagrammet
+Designklasse diagrammet laves ud fra Domæne Modellen.

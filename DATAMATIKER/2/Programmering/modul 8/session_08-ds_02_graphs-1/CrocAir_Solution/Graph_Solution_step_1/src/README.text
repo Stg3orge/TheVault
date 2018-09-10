@@ -1,0 +1,6 @@
+The Vertex class is implemented,
+The GraphIF interface is extracted from Main.java,
+and a stub implementation called LinkedGraph is present
+
+It is now your job to implement all the methods in LinkedGraph¨
+

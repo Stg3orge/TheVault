@@ -1,0 +1,6 @@
+Vertex and most of LinkedGraph are implemented
+
+BFS and DFS are not implemented - implement these!
+
+A practical note: the sequence of methods in the LinkedGraph class follows
+a logical order, not the order of methods from the interface.

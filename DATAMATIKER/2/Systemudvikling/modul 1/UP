@@ -1,0 +1,40 @@
+UP
+- Small and large scale projects
+- Dokumentation af artifacter
+ Use case drevet process, arkitektur centrisk iterative og inkremental
+
+ Prince2
+ - 7 processer
+ 	Start
+ 	Initiate
+ 	Direct
+ 	Controlling
+ 	Product Delivery
+ 	Stage boundaries
+ 	Close project
+- Business Orienteret
+
+Scrum
+- Small knit group of devs
+- Delte dev processer kaldet "Sprint" i typisk to ugers varighed
+- Stand up meetings for at orientere sig om hvor man er med processerne
+- Agil
+- Iterativ og incrementa
+- Work as a unit to reach one goal
+- Adaptiv til ændringer givet af kunden
+
+eXtreme programming
+- Agil
+- short dev cycles, iterative
+- Checkpoints opstilles til at modtage invendinger fra andre parter
+- Program par
+- Extensive code reviewing
+- Unit testing ofte af alt kode
+- Klarhed i koden
+
+Waterfall
+- Et goal og ingen stop undervejs
+- ingen ændringer efter underskrivning
+- Gør maintenance let
+- Struktureret
+- ikke agil
