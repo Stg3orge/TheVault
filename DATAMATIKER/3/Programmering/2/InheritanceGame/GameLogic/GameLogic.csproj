@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="model\Bread.cs" />
     <Compile Include="model\Consumable.cs" />
+    <Compile Include="model\GoldSword.cs" />
     <Compile Include="model\Interfaces\IDamageable.cs" />
     <Compile Include="model\Interfaces\IHealable.cs" />
     <Compile Include="model\Interfaces\IPlayer.cs" />
@@ -49,6 +50,7 @@
     <Compile Include="model\Item.cs" />
     <Compile Include="model\Juice.cs" />
     <Compile Include="model\Player.cs" />
+    <Compile Include="model\Weapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

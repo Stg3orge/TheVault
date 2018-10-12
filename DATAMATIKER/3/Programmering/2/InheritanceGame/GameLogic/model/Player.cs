@@ -10,19 +10,20 @@ namespace GameLogic.model
     public class Player : IPlayer
     {
         private int hitpoints = 0;
-        private bool isAlive;
+        private bool isAlive = false;
         private Inventory inventory;
 
-        public Inventory PlayerInventory
-        {
-            get { return inventory; }
-            private set { inventory = value; }
-        }
         public Player(int hitpoints)
         {
             this.hitpoints = hitpoints;
             this.isAlive = true;
             inventory = new Inventory();
+        }
+
+        public Inventory PlayerInventory
+        {
+            get { return inventory; }
+            private set { inventory = value; }
         }
 
         public int Hitpoints
@@ -38,11 +39,16 @@ namespace GameLogic.model
 
         }
 
-        
-            
         public void Die()
         {
-            throw new NotImplementedException();
+            if (Hitpoints == 0)
+            {
+                IsAlive = false;
+            }
+            else
+            {
+                Console.WriteLine("I cannot die just yet!");
+            }
         }
 
         public void Heal(int amount)
@@ -52,12 +58,14 @@ namespace GameLogic.model
 
         public void Respawn()
         {
-            throw new NotImplementedException();
+            Hitpoints = 20;
+            IsAlive = true;
+            Console.WriteLine("I live again!");
         }
 
         public void TakeDamage(int amount)
         {
-            throw new NotImplementedException();
+            Hitpoints -= amount;
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameLogic.model.Interfaces
 {
-    interface IPlayer : IHealable
+    interface IPlayer : IHealable, IDamageable
     {
         int Hitpoints { get; set; }
         bool IsAlive { get; set; }

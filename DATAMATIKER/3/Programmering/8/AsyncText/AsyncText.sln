@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncText", "AsyncText\AsyncText.csproj", "{6E930BAF-1D91-4C65-AF92-25583DAF1FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTextConsole", "ConsoleApplication1\AsyncTextConsole.csproj", "{35A29581-A55C-4032-BC04-F1ACDA36E630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async-awaitConsole", "Async-awaitConsole\Async-awaitConsole.csproj", "{FC581F0D-E1EE-485F-8C75-B2B270340A26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E930BAF-1D91-4C65-AF92-25583DAF1FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E930BAF-1D91-4C65-AF92-25583DAF1FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E930BAF-1D91-4C65-AF92-25583DAF1FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E930BAF-1D91-4C65-AF92-25583DAF1FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A29581-A55C-4032-BC04-F1ACDA36E630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A29581-A55C-4032-BC04-F1ACDA36E630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A29581-A55C-4032-BC04-F1ACDA36E630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A29581-A55C-4032-BC04-F1ACDA36E630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC581F0D-E1EE-485F-8C75-B2B270340A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC581F0D-E1EE-485F-8C75-B2B270340A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC581F0D-E1EE-485F-8C75-B2B270340A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC581F0D-E1EE-485F-8C75-B2B270340A26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

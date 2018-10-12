@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameLogic.model.Interfaces
 {
-    interface IHealable : IDamageable
+    interface IHealable
     {
         void Heal(int amount);
     }
