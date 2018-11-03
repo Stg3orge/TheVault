@@ -1,0 +1,10 @@
+Planning Poker
+ Da det er Extreme Programming er user stories udført i par af to programmører.
+ Points er delegeret på backloggen i "Effort" tabellen.
+ Points er delegeret igennem Planning Poker med estimeringer fra 4-5 personer.
+ 
+ Lars database opsætning. Hvordan brydes tabeller op når det kommer til hvert spil, hvad er smartest fordi vi er nødt til at bruge en db fordi vi vil håndtere samtidighed. En spike på Databasen maybe.
+
+ En story må ikke være over 8 stor før den brydes.
+
+ 1 dag er 10 points (fibonacci)
