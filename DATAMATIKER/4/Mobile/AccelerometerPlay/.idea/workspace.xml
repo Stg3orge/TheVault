@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f3f9d75-230f-4fdb-af73-c517196a5e04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActivityStates/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActivityStates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/androidTest/java/com/example/additemstolistanddisplay/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/java/com/example/additemstolistanddisplay/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/java/com/example/additemstolistanddisplay/MyOnClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/app/src/test/java/com/example/additemstolistanddisplay/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddItemsToListAndDisplay/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FillOutList/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FillOutList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstApp/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstApp/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstApp/app/src/main/java/com/example/firstapp/DisplayMessageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstApp/app/src/main/res/layout/activity_display_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/androidTest/java/com/example/mynewtodolistfragmentsproject/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/java/com/example/mynewtodolistfragmentsproject/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/app/src/test/java/com/example/mynewtodolistfragmentsproject/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyNewToDoListFragmentsProject/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SensorApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SensorApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextViewAutolinkExercise/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextViewAutolinkExercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/androidTest/java/com/example/todolistfragments/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/java/com/example/todolistfragments/InputFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/java/com/example/todolistfragments/ListFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/java/com/example/todolistfragments/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/java/com/example/todolistfragments/NewItemListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/layout/fragment_input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/app/src/test/java/com/example/todolistfragments/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoListFragments/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3/Projekt/rapporter/planlægning.tex" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-111036930">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-20" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f3f9d75-230f-4fdb-af73-c517196a5e04" name="Default Changelist" comment="" />
+      <created>1550225341306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550225341306</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.3295302" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32907802" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

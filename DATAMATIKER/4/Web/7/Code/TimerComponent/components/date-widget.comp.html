@@ -1,0 +1,68 @@
+<template>
+    <style></style>
+    <div class="container">
+        <div class="left">
+            <div class="month"></div>
+            <div class="day"></div>
+        </div>
+        <div class="right">
+            <div class="day-long"></div>
+            <div class="time"></div>
+        </div>
+    </div>
+</template>
+<script>
+    (function () {
+        //get the content of the template
+        var template = document.currentScript.ownerDocument.querySelector("template");
+        //create a prototype for this component
+        var proto = Object.create(HTMLElement.prototype);
+
+        //define some constants for the months and days
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+        // Register a CreatedCallback
+        proto.createdCallback = function () {
+            var clone = document.importNode(template.content, true);
+            //add the template content to the shadow dom
+            this.createShadowRoot().appendChild(clone);
+            //get the elements from the shadow root
+            this.container = this.shadowRoot.querySelector(".container");
+            this.month = this.shadowRoot.querySelector(".month");
+            this.day = this.shadowRoot.querySelector(".day");
+            this.dayLong = this.shadowRoot.querySelector(".day-long");
+            this.time = this.shadowRoot.querySelector(".time");
+
+            //call the draw function initially
+            this.draw();
+            var that = this; //explain this
+            setInterval(function () {
+                that.draw();
+            }, 1000);
+        };
+
+        //the custom draw method
+        proto.draw = function () {
+            this.date = new Date();
+            this.month.innerHTML = months[this.date.getMonth()];
+            this.day.innerHTML = this.date.getDate();
+            this.dayLong.innerHTML = days[this.date.getDay()].toUpperCase();
+            this.time.innerHTML = this.date.toLocaleTimeString();
+        };
+
+        //called whtn the component instance is attached to the DOM
+        proto.attachedCallback = function () {
+
+        }
+
+        //Called when one of this components attributes change
+        proto.attributeChangedCallback = function (attrName, oldVal, newVal) {
+
+        }
+
+        //register the element with the document
+        document.registerElement("date-widget", { prototype: proto });
+
+    })();
+</script>

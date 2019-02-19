@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XPXamarin1"
+             x:Class="XPXamarin1.MainPage">
+
+    <StackLayout Padding="25">
+        <StackLayout>
+            <Label Text="Dickbutt" FontSize="Large"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Name" VerticalOptions="Center"/>
+                <Entry x:Name="inPersonDick" Placeholder="Enter Dickbutt here." VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <!-- LEFT, TOP, RIGHT, BOTTOM -->
+            <StackLayout Padding="50, 10, 50, 10">
+                <Button x:Name="btnInputDickbutt" Text="Capture Name" Clicked="btnInputDickbuttClicedHandler"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
