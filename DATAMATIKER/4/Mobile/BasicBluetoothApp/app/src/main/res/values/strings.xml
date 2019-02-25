@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BasicBluetoothApp</string>
+    <string name="discovery_button">Start</string>
+</resources>

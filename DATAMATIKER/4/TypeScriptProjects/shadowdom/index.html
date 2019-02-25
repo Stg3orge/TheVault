@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	
+	<title>My Shadow DOM Document</title>
+	<style type="text/css" media="screen">
+		.box{
+			background-color: #FFA500;
+			border: solid #DDD;
+			margin: 25px;
+		}
+	</style>
+</head>
+
+<body>
+<script src="shadowscript.js" type="text/javascript"></script>
+<script type="text/javascript">customElements.define("alert-box", AlertBox);</script>
+<div id="shadowroottest">
+
+	<p id="HeadElement"></p>
+
+	<script type="text/javascript">
+		var shdow = document.querySelector('#HeadElement').attachShadow({mode: 'open'});
+		shdow.innerHTML = '<span>Here is shadow dom text span</span>';
+		shdow.innerHTML += '<style type="text/css">span { color : blue; }</style>';
+	</script>
+
+	<div id="ClockDiv"></div>
+
+	<script type="text/javascript" charset="utf-8">
+			var shdowclock = document.querySelector('#ClockDiv').attachShadow({mode: 'open'});
+			shdowclock.innerHTML = '<iframe src="http://free.timeanddate.com/clock/i6n316eu/n1407/szw110/szh110/hoc0f0/hbw13/hfceee/cf100/hnc0ff/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>'
+	</script>
+
+	<alert-box text="This is my Alert Box"></alert-box>
+	<div class="box">Classic Box</div>
+	
+</div>
+
+</body>
+
+</html>

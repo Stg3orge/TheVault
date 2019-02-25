@@ -14,14 +14,4 @@ import java.util.ArrayList;
 
 public class ListFragment extends android.support.v4.app.ListFragment {
 
-    public ListFragment() {
-
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v =  inflater.inflate(R.layout.fragment_list, container, false);
-
-        return v;
-    }
 }
