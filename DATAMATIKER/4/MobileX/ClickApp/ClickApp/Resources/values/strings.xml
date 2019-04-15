@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ClickApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="AppHeadline">On Click Application</string>
+  <string name="callHello">You clicked the button to get here</string>
+  <string name="buttonText">Click me!</string>
+</resources>

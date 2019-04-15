@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasicExample.App">
+	<Application.Resources>
+
+        <ResourceDictionary>
+            <!-- standard style -->
+            <Style
+            x:Key="buttonStyle"
+            TargetType="Button">
+                <Setter
+               Property="HorizontalOptions"
+               Value="Center" />
+                <Setter
+               Property="VerticalOptions"
+               Value="Center" />
+                <Setter
+               Property="TextColor"
+               Value="Red" />
+                <Setter
+               Property="FontSize"
+               Value="Small" />
+            </Style>
+            <!-- implicit style -->
+            <Style
+            TargetType="Label">
+                <Setter
+               Property="HorizontalOptions"
+               Value="Center" />
+                <Setter
+               Property="VerticalOptions"
+               Value="Center" />
+                <Setter
+               Property="TextColor"
+               Value="Blue" />
+                <Setter
+               Property="FontSize"
+               Value="20" />
+            </Style>
+            <Style
+            TargetType="StackLayout">
+                <Setter
+               Property="Padding"
+               Value="30" />
+                <Setter Property="BackgroundColor" Value="#FFFFA0" />
+            </Style>
+            <!-- Inherited style -->
+            <Style
+            x:Key="baseStyle"
+            TargetType="View">
+                <Setter
+               Property="HorizontalOptions"
+               Value="Center" />
+                <Setter
+               Property="VerticalOptions"
+               Value="Center" />
+            </Style>
+            <Style
+            x:Key="entryStyle"
+            TargetType="Entry"
+            BasedOn="{StaticResource baseStyle}">
+                <Setter
+               Property="TextColor"
+               Value="Green" />
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

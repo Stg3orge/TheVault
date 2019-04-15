@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GridLayoutDemo"
+             x:Class="GridLayoutDemo.MainPage"
+             BackgroundColor="#354242">
+
+    <Grid RowSpacing="2" ColumnSpacing="2" Padding="5" x:Name="LeagueGrid">
+
+        <!--<Label Grid.Row="0" Grid.ColumnSpan="3" Text="Soccer leagues" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" FontSize="36" />
+
+        <Label Grid.Row="1" Grid.Column="0" Text="Liga 1" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Grid.Row="1" Grid.Column="1" Text="Liga 2" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Grid.Row="1" Grid.Column="2" Text="Serie A" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+
+        <Label Grid.Row="2" Grid.Column="0" Text="La Liga" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Grid.Row="2" Grid.Column="1" Text="Bundesliga" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Grid.Row="2" Grid.Column="2" Text="Ligue 1" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+
+        <Label Grid.Row="3" Grid.Column="0" Text="Premier League" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Grid.Row="3" Grid.Column="1" Text="Championship" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Grid.Row="3" Grid.Column="2" Text="Æresdivisionen" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+
+        <Label Grid.Row="4" Grid.Column="0" Text="Superligaen" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Grid.Row="4" Grid.Column="1" Text="Alsvanskan" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Grid.Row="4" Grid.Column="2" Text="Tippeligaen" FontSize="Small" TextColor="#28282c" BackgroundColor="#fff" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />-->
+
+    </Grid>
+
+</ContentPage>
