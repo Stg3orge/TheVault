@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shadow DOM Alert box</title>
+    <style>
+        .box {
+            background-color: #EEE;
+            border: 4px solid #CCC;
+            margin: 30px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <alert-box text="This is my warning"></alert-box>
+    <div class="box">This is another warning</div>
+    <script>
+        class AlertBox extends HTMLElement {
+            constructor() {
+                //always call super first
+                super();
+                //write all the elememet functionality here
+                var shadow = this.attachShadow({ mode: "open" });
+                //create the box
+                var box = document.createElement("div");
+                box.setAttribute("class", "box");
+                //take the attribute context from the new custom html tag
+                var text = this.getAttribute("text");
+                box.innerText = text;
+                //create the styling (local)
+                var styletag = document.createElement("style");
+                styletag.textContent = ".box{padding:20px;border:1px solid #DDD}";
+                //attaching the dom to the shadow root
+                shadow.appendChild(styletag);
+                shadow.appendChild(box);
+            }
+        }
+        customElements.define("alert-box", AlertBox);
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+
+	<title>Javascript - Scope</title>
+</head>
+<body>
+	<script>
+		function TestScope() {
+			let counter = 3;
+			let customerName;
+			if(counter > 0){
+				customerName = "Luke Skywalker";
+			}
+			console.log(customerName);
+		}
+		TestScope();
+	</script>
+</body>
+</html>

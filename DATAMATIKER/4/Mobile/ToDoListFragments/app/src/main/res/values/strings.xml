@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDoListFragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inputHint">Item input</string>
+    <string name="buttonText">Add Item</string>
+</resources>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<html>
+
+<script type="text/javascript" charset="utf-8">
+	window.onload = function(){
+		if(window.jQuery){
+			alert("Yeah!");
+		}
+		else{
+			alert("doesnt work");
+		}
+		
+	}
+</script>
+
+<script type="text/javascript" charset="utf-8" >
+	$(document).ready( function(){
+		$("#projectformid").click(function(){
+			event.preventDefault();
+			alert("YOU CLICKED ME!");
+		});
+	});
+</script>
+
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>CentiSoft Website Create Project Form</title>
+</head>
+
+<body>
+
+	<div>
+      
+      <form id="projectformid" accept-charset="utf-8" method="post">
+        
+        Name of Project:<br>
+        <input type="text" name="name" required><br>
+        Due by date:<br>
+        <input type="text" name="date" required=""><br>
+        Customer id:<br>
+        <input type="text" name="cid" required><br>
+        <input type="submit" name="submitproject" value="Submit">
+        
+      </form>
+    </div>
+
+</body>
+
+</html>

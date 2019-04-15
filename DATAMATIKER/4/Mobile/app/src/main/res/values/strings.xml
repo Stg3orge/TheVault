@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CameraFileReadAsyncExercise</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_showimage">Show Image</string>
+</resources>

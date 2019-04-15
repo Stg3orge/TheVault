@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FillOutList</string>
+
+    <string-array name="colors">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        <item>White</item>
+        <item>Brown</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,19 @@
+body {
+  background-color: powderblue;
+}
+h3 {
+	font-family: Arial Black;
+  color: RGB(255, 96, 28);
+}
+h2, h1 {
+	font-family: Corbel;
+  color: RGB(100, 96, 177);
+}
+
+li {
+	font-family: Corbel;
+}
+
+p {
+  color: RGB(65, 128, 200);
+}

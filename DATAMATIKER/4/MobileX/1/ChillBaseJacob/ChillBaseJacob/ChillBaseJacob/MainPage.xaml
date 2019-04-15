@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChillBaseJacob"
+             x:Class="ChillBaseJacob.MainPage"
+             Title="Chill base">
+
+
+    <StackLayout Padding="10, 20, 10, 0">
+        <Label Text="Wind chill calculation" FontSize="Large" />
+        <BoxView Color="Aqua" HeightRequest="1" HorizontalOptions="FillAndExpand" />
+        <!-- Get temperature -->
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="Select:" VerticalOptions="Center" />
+            <Picker x:Name="tempScale" Title="Temperature scale" VerticalOptions="Center">
+                <Picker.Items>
+                    <x:String>Celsius</x:String>
+                    <x:String>Fahrenheit</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="Temperature degrees" VerticalOptions="Center" />
+            <Entry x:Name="inputDegrees" Keyboard="Numeric" Placeholder="0000" HorizontalOptions="Fill" VerticalOptions="Center" />
+        </StackLayout>
+        <!-- Get wind speed -->
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="Select:" VerticalOptions="Center" />
+            <Picker x:Name="windUnit" Title="Wind unit" VerticalOptions="Center">
+                <Picker.Items>
+                    <x:String>m/s</x:String>
+                    <x:String>mph</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="Wind speed" VerticalOptions="Center" />
+            <Entry x:Name="inputSpeed" Keyboard="Numeric" Placeholder="000" HorizontalOptions="Fill" VerticalOptions="Center" />
+        </StackLayout>
+
+        <Button Text="Convert" BackgroundColor="#1dabf0" TextColor="White" Clicked="ClickedConvert" />
+        <Label x:Name="result1" Text=".." FontSize="Medium" TextColor="Green" />
+        <Label x:Name="result2" Text=".." FontSize="Medium" FontAttributes="Bold" TextColor="Green" />
+        <!--errorMessage label here-->
+
+    </StackLayout>
+
+</ContentPage>
+

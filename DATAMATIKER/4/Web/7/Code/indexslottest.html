@@ -1,0 +1,80 @@
+<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>slot example</title>
+    <style>
+        dl {
+            margin-left: 6px;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #217ac0;
+            font-size: 110%
+        }
+
+        dt {
+            font-family: Consolas, "Liberation Mono", Courier
+        }
+
+        dd {
+            margin-left: 16px
+        }
+    </style>
+</head>
+<body>
+    <template id="element-details-template">
+        <details>
+            <summary>
+                <span>
+                    <code class="name">&lt;<slot name="element-name">NEED NAME</slot>&gt;</code>
+                    <i class="desc">
+                        <slot name="description">NEED DESCRIPTION</slot>
+                    </i>
+                </span>
+            </summary>
+            <div class="attributes">
+                <h4>
+                    <span>Attributes</span>
+                </h4>
+                <slot name="attributes">
+                    <p>None</p>
+                </slot>
+            </div>
+        </details>
+        <hr>
+    </template>
+    <element-details>
+        <span slot="element-name">slot</span>
+        <span slot="description">A placeholder inside a web component that users can fill with their own markup, with the effect of composing different
+            DOM trees together.
+        </span>
+        <dl slot="attributes">
+            <dt>name</dt>
+            <dd>The name of the slot.</dd>
+        </dl>
+    </element-details>
+    <element-details>
+        <span slot="element-name">template</span>
+        <span slot="description">A mechanism for holding client- side content that is not to be rendered when a page is loaded but may subsequently
+            be instantiated during runtime using JavaScript.</span>
+    </element-details>
+    <script>
+        customElements.define('element-details',
+            class extends HTMLElement {
+                constructor() {
+                    super();
+                    var template = document
+                        .getElementById('element-details-template')
+                        .content;
+                    const shadowRoot = this.attachShadow({ mode: 'open' })
+                        .appendChild(template.cloneNode(true));
+                }
+            })
+    </script>
+</body>
+
+</html>

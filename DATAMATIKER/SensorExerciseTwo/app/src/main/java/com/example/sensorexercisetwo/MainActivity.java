@@ -13,6 +13,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    Sensor sensor;
     SensorManager sManager;
     List<Sensor> allSensors;
 
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+sensor =  sManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
         Button manualButton = (Button) findViewById(R.id.btnManualSensor);
         manualButton.setOnClickListener(new View.OnClickListener() {
             @Override
