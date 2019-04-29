@@ -12,7 +12,7 @@ export class AuthenticationService {
 
   getUserDetails(username, password) {
     // post these details to API server, return user info if correct
-    let url = '/api/';
-    return this.http.post(url);
+    //let url = '/api/';
+    //return this.http.post(url);
   }
 }

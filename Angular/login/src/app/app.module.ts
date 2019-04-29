@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
 import { HomeComponent } from './home/home.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -17,11 +18,9 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     RouterModule.forRoot([
-      {
-        path: '',
-        component: HomeComponent
-      },
+      
       {
         path: 'login',
         component: LoginComponent
@@ -29,7 +28,12 @@ import { HomeComponent } from './home/home.component';
       {
         path: 'admin',
         component: AdminComponent
+      },
+      {
+        path: '',
+        component: HomeComponent
       }
+
     ])
   ],
   providers: [],
