@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BasicExample"
+             x:Class="BasicExample.MainPage">
+
+    <StackLayout>
+        <Label
+            Text="This is label 1 using an implicit style" />
+        <Label
+            Text="This is label 2" />
+        <Entry
+            Style="{StaticResource entryStyle}"
+            Placeholder="This entry uses an inherited style" />
+        <Button
+            Style="{StaticResource buttonStyle}"
+            Text="Using explicit style"
+            BorderWidth="2"
+            WidthRequest="200" />
+        <Button 
+            Text="Not using the button style" 
+            BorderWidth="2"
+            WidthRequest="200"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+        <Button 
+            x:Name="btn3"
+            Text="Button style set in code-behind" 
+            BorderWidth="2"
+            WidthRequest="200"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+
+    </StackLayout>
+
+</ContentPage>
