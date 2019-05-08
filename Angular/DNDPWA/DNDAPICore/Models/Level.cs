@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace DNDAPICore.Models
 {
-    public class Hitpoints
+    public class Level
     {
         [Key]
         public int Id { get; set; }
-        public int CurrentHP { get; set; }
-        public int MaxHP { get; set; }
-        public int TempHP { get; set; }
+
+        public int CurrentLvl { get; set; }
+        public int Experience { get; set; }
 
         [ForeignKey("Character")]
         public int CharacterId { get; set; }
